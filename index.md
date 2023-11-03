@@ -7,7 +7,7 @@
       <p><b>山东大学计算机科学与技术学院</b></p>
       <p><b>邮箱：haoma@mail.sdu.edu.cn</b></p>
       <p><b>地址：山东省青岛市即墨区鳌山卫滨海大道72号山东大学</b></p>
-      <p><a href="/index-en.html">English Version</a></p>
+      <p><a href="/index-en.md">English Version</a></p>
     </td>
     <td width="25%">
       <img src="/haoma.jpg" width="100%">
