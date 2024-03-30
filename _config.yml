@@ -21,7 +21,7 @@ repository               : "https://github.com/haoma2772"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "HaoMa.png"
+  avatar           : 
   name             : "Hao Ma"
   pronouns         : # example: "she/her"  
   bio              : "To be like grass, staying humble is best."
