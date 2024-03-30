@@ -11,7 +11,7 @@ Hao Ma is an undergraduate student at the School of Computer Science and Technol
 
 Outside of his academic life, he is interested in sports, especially running. He has run several half marathons. He grew up in WuLian, a beautiful mountain county in east China.
 
-Please find his CV [here](../files/cv.pdf){:target="_blank"}. 
+This is his CV [here](../files/HaoMa_CV.pdf){:target="_blank"}.
 
 
 Education
