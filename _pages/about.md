@@ -17,18 +17,15 @@ This is his CV [here](../files/HaoMa_CV.pdf){:target="_blank"}.
 Education
 ===
 * Sept. 2021 --- June 2025: B.Sc. at [the School of Computer Science and Technology](http://www.cs.en.qd.sdu.edu.cn/), [Shandong University, Qingdao, China)](http://www.en.qd.sdu.edu.cn/)
-* Sept. 2018 --- June 2021: The Hign School of Wulian.
+* Sept. 2018 --- June 2021: The Hign School of Wu Lian.
 
 
 Publications
 ===
-* Senmao Qi, **Hao Ma**, Yifei Zou, Dongxiao Yu, Peng Li, and Xiuzhen Cheng, "Fragment-sharing is enough to backdoor a giant model in federated learning", Submitted to Big Data Mining and
-Analytics 2023.
-* Senmao Qi, **Hao Ma**, Yifei Zou, Yuan Yuan, Peng Li, and Dongxiao Yu, "Fed-ms: Fault tolerant
-federated edge learning with multiple byzantine servers", Submitted to ICDCS 2024.
-* Senmao Qi, **Hao Ma**, Yifei Zou, Yuan Yuan, Peng Li, and Dongxiao Yu, BR-FEEL: A Backdoor Resilient Approach for Federated Edge
-Learning with Fragment-Sharing", Submitted to JSA .
-
+* **Hao Ma**, Senmao Qi, Jiayue Yao, Yuan Yuan, Yifei Zou, Dongxiao Yu, "Fed-NAD: Backdoor Resilient Federated Learning via Neural Attention Distillation", Accepted by IDS 2024.
+* Senmao Qi, **Hao Ma**, Yifei Zou, Dongxiao Yu, Peng Li, and Xiuzhen Cheng, "Fragment-sharing is enough to backdoor a giant model in federated learning", Accepted by Big Data Mining and Analytics 2023.
+* Senmao Qi, **Hao Ma**, Yifei Zou, Yuan Yuan, Peng Li, and Dongxiao Yu, "Fed-MS: Fault tolerant federated edge learning with multiple byzantine servers", Accepted by ICDCS 2024.
+* Senmao Qi, **Hao Ma**, Yifei Zou, Yuan Yuan, Peng Li, and Dongxiao Yu, BR-FEEL: A Backdoor Resilient Approach for Federated Edge Learning with Fragment-Sharing", Under Minor Revisor by JSA.
 
 
 Honors and Awards
