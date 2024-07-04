@@ -13,7 +13,7 @@
             height: auto;
             display: block;
             margin-bottom: 10px;
-        " src=".._/sports/running/2023_qingma1.jpg" alt="Photo 1">
+        " src="../_sports/running/2023_qingma1.jpg" alt="Photo 1">
     </div>
     <div>
         <img style="
