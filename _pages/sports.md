@@ -1,6 +1,6 @@
 ---
-layout: archive
-title: ""
+# layout: archive # too wide
+title: "Sports"
 permalink: /sports/
 author_profile: true
 ---
