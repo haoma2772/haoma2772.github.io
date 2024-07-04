@@ -4,8 +4,9 @@
 
 
 ### 青岛海上半程马拉松
+
 <div style="display: flex; justify-content: center; gap: 20px; align-items: center; text-align: center;">
-    <div style="flex: 1;">
+    <div>
         <img style="
             border-radius: 0.3125em;
             box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.08);
@@ -15,7 +16,7 @@
             margin-bottom: 10px;
         " src="../_sports/running/2023_haima1.jpg" alt="Photo 1">
     </div>
-    <div style="flex: 1;">
+    <div>
         <img style="
             border-radius: 0.3125em;
             box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.08);
@@ -25,7 +26,7 @@
             margin-bottom: 10px;
         " src="../_sports/running/2023_haima2.jpg" alt="Photo 2">
     </div>
-    <div style="flex: 1;">
+    <div>
         <img style="
             border-radius: 0.3125em;
             box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.08);
@@ -39,7 +40,6 @@
 
 <div style="text-align: center;">
     2023.10.15
-</div>
 
 
 ### 即墨半程马拉松
