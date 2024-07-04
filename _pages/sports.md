@@ -13,7 +13,7 @@
             height: auto;
             display: block;
             margin-bottom: 10px;
-        " src="../sports/running/2023_qingma1.jpg" alt="Photo 1">
+        " src=".._/sports/running/2023_qingma1.jpg" alt="Photo 1">
     </div>
     <div>
         <img style="
@@ -23,7 +23,7 @@
             height: auto;
             display: block;
             margin-bottom: 10px;
-        " src="../sports/running/2023_qingma2.jpg" alt="Photo 2">
+        " src="../_sports/running/2023_qingma2.jpg" alt="Photo 2">
     </div>
     <div>
         <img style="
@@ -33,7 +33,7 @@
             height: auto;
             display: block;
             margin-bottom: 10px;
-        " src="../sports/running/2023_qingma3.jpg" alt="Photo 3">
+        " src="../_sports/running/2023_qingma3.jpg" alt="Photo 3">
     </div>
 </div>
 
@@ -52,7 +52,7 @@
             height: auto;
             display: block;
             margin-bottom: 10px;
-        " src="../sports/running/2023_jimo1.jpg" alt="Photo 1">
+        " src="../_sports/running/2023_jimo1.jpg" alt="Photo 1">
     </div>
     <div>
         <img style="
@@ -62,7 +62,7 @@
             height: auto;
             display: block;
             margin-bottom: 10px;
-        " src="../sports/running/2023_jimo2.jpg" alt="Photo 2">
+        " src="../_sports/running/2023_jimo2.jpg" alt="Photo 2">
     </div>
     <div>
         <img style="
@@ -72,7 +72,7 @@
             height: auto;
             display: block;
             margin-bottom: 10px;
-        " src="../sports/running/2023_jimo3.jpg" alt="Photo 3">
+        " src="../_sports/running/2023_jimo3.jpg" alt="Photo 3">
     </div>
 </div>
 
@@ -91,7 +91,7 @@
             height: auto;
             display: block;
             margin-bottom: 10px;
-        " src="../sports/running/2023_haima1.jpg" alt="Photo 1">
+        " src="../_sports/running/2023_haima1.jpg" alt="Photo 1">
     </div>
     <div>
         <img style="
@@ -101,7 +101,7 @@
             height: auto;
             display: block;
             margin-bottom: 10px;
-        " src="../sports/running/2023_haima2.jpg" alt="Photo 2">
+        " src="../_sports/running/2023_haima2.jpg" alt="Photo 2">
     </div>
     <div>
         <img style="
@@ -111,7 +111,7 @@
             height: auto;
             display: block;
             margin-bottom: 10px;
-        " src="../sports/running/2023_haima3.jpg" alt="Photo 3">
+        " src="../_sports/running/2023_haima3.jpg" alt="Photo 3">
     </div>
 </div>
 
