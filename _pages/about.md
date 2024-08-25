@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hao Ma is an undergraduate student at the School of Computer Science and Technology, Shandong University, Qingdao, China. His primary research interests include Federated Learning and AI Security.
+Hao Ma is an undergraduate student at the School of Computer Science and Technology, Shandong University, Qingdao, China. His primary research interests include Federated Learning and Distributed Machine Learning and Secure and Robust Algorithm Design.
 
 Outside of his academic life, he is interested in sports, especially running. He has run several half marathons. He grew up in WuLian, a beautiful mountain county in east China.
 
@@ -22,10 +22,14 @@ Education
 
 Publications
 ===
-* **Hao Ma**, Senmao Qi, Jiayue Yao, Yuan Yuan, Yifei Zou, Dongxiao Yu, "Fed-NAD: Backdoor Resilient Federated Learning via Neural Attention Distillation", Accepted by IDS 2024.
-* Senmao Qi, **Hao Ma**, Yifei Zou, Dongxiao Yu, Peng Li, and Xiuzhen Cheng, "Fragment-sharing is enough to backdoor a giant model in federated learning", Accepted by Big Data Mining and Analytics 2023.
-* Senmao Qi, **Hao Ma**, Yifei Zou, Yuan Yuan, Peng Li, and Dongxiao Yu, "Fed-MS: Fault tolerant federated edge learning with multiple byzantine servers", Accepted by ICDCS 2024.
-* Senmao Qi, **Hao Ma**, Yifei Zou, Yuan Yuan, Peng Li, and Dongxiao Yu, BR-FEEL: A Backdoor Resilient Approach for Federated Edge Learning with Fragment-Sharing", Under Minor Revisor by JSA.
+* **Hao Ma**, Senmao Qi, Jiayue Yao, Yuan Yuan, Yifei Zou, Dongxiao Yu, "Fed-NAD: Backdoor Resilient Federated Learning via Neural Attention Distillation". IEEE International Conference on Intel-
+ligent Data and Security (IEEE IDS). 2024.
+* Senmao Qi, **Hao Ma**, Yifei Zou, Dongxiao Yu, Peng Li, and Xiuzhen Cheng, "Fragment-sharing is enough to backdoor a giant model in federated learning". Big Data Mining and Analytics (BDMA) (2024).
+JCR Q1.
+* Senmao Qi, **Hao Ma**, Yifei Zou, Yuan Yuan, Peng Li, and Dongxiao Yu, "Fed-MS: Fault tolerant federated edge learning with multiple byzantine servers". IEEE International Conference on Distributed
+Computing Systems (IEEE ICDCS). CCF B. 2024.
+* Senmao Qi, **Hao Ma**, Yifei Zou, Yuan Yuan, Peng Li, and Dongxiao Yu, BR-FEEL: A Backdoor Resilient Approach for Federated Edge Learning with Fragment-Sharing". Journal of Systems Architecture (JSA)
+(2024). CCF B.
 
 
 Honors and Awards
@@ -47,8 +51,8 @@ Activities
 
 Skills
 ===
-* **Languages:** CET-493
-* **Coding:** Python, C/C++, Matlab, LATEX,
+* **Languages:** IELTS: 6.0, CET-493.
+* **Coding:** Python, C/C++, Matlab, LATEX.
 
 
 
