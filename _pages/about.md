@@ -34,6 +34,7 @@ Computing Systems (IEEE ICDCS). CCF B. 2024.
 
 Honors and Awards
 ===
+* National scholarship, 2024.
 * Second class of Academic Innovation Award of Shandong University Special Talents Scholarship, 2023.
 * National Encouragement scholarship of Shandong University, 2022 and 2023.
 * Second Class Academic Scholarship of Shandong University, 2022 and 2023.
@@ -51,7 +52,7 @@ Activities
 
 Skills
 ===
-* **Languages:** IELTS: 6.0, CET-493.
+* **Languages:** IELTS: 6.5, CET-493.
 * **Coding:** Python, C/C++, Matlab, LATEX.
 
 
