@@ -7,21 +7,23 @@ redirect_from:
   - /about.html
 ---
 
-Hao Ma is an undergraduate student at the School of Computer Science and Technology, Shandong University, Qingdao, China. His primary research interests include Federated Learning and Distributed Machine Learning and Secure and Robust Algorithm Design.
+Hao Ma received his B.E. degree from the School of Computer Science and Technology, Shandong University, Qingdao, China, in 2025. He is currently a Ph.D. student at Hong Kong Baptist University. His research interests include trustworthy large language models, social computing, and robust federated learning.
 
-Outside of his academic life, he is interested in sports, especially running. He has run several half marathons. He grew up in WuLian, a beautiful mountain county in east China.
+Outside of his academic life, he is interested in sports, especially badminton and running. He has run several half marathons. He grew up in WuLian, a beautiful mountain county in east China.
 
 This is his CV [here](../files/HaoMa_CV.pdf){:target="_blank"}.
 
 
 Education
 ===
-* Sept. 2021 --- June 2025: B.Sc. at [the School of Computer Science and Technology](http://www.cs.en.qd.sdu.edu.cn/), [Shandong University, Qingdao, China)](http://www.en.qd.sdu.edu.cn/)
+* Sept. 2025 --- June 2029: Phd Student in [ITS](https://gs.hkbu.edu.hk/current-students/institute-of-transdisciplinary-studies-its-programme) and [CS](https://www.comp.hkbu.edu.hk/v1/), [HKBU](https://www.hkbu.edu.hk/).
+* Sept. 2021 --- June 2025: B.Eng. at [the School of Computer Science and Technology](http://www.cs.en.qd.sdu.edu.cn/), [Shandong University, Qingdao, China)](http://www.en.qd.sdu.edu.cn/)
 * Sept. 2018 --- June 2021: The Hign School of Wu Lian.
 
 
 Publications
 ===
+* Senmao Qi, **Hao Ma**, Yifei Zou, Peng Li, Hanlin Gu, Zhenzhen Xie, Lixin Fan, Xiuzhen Cheng, Dongxiao Yu, "General Backdoor-Resilient Federated Learning via Multi-Armed Bandit-based Knowledge Distillation". IEEE TIFS, 2025. CCF A.
 * **Hao Ma**, Senmao Qi, Jiayue Yao, Yuan Yuan, Yifei Zou, Dongxiao Yu, "Fed-NAD: Backdoor Resilient Federated Learning via Neural Attention Distillation". IEEE International Conference on Intel-
 ligent Data and Security (IEEE IDS). 2024.
 * Senmao Qi, **Hao Ma**, Yifei Zou, Dongxiao Yu, Peng Li, and Xiuzhen Cheng, "Fragment-sharing is enough to backdoor a giant model in federated learning". Big Data Mining and Analytics (BDMA) (2024).
