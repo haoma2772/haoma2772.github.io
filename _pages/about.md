@@ -3,7 +3,7 @@ layout: profile
 kind: home
 permalink: /
 title: "Homepage"
-description: "Hao Ma (Lucian), Ph.D. student at Hong Kong Baptist University, researching trustworthy machine learning, social computing, and robust federated learning."
+description: "Hao Ma (Lucian), Ph.D. student at Hong Kong Baptist University. Research interests: trustworthy AI, online learning, and social computing."
 redirect_from:
   - /about/
   - /about.html
@@ -11,9 +11,10 @@ redirect_from:
 <section class="section about-section" id="about" aria-labelledby="about-title">
   <div class="about-copy">
     <div class="section-heading"><h1 id="about-title"><span class="heading-icon" aria-hidden="true">{% include profile-icon.html name="person" %}</span>About me</h1></div>
-    <p class="about-lead">I am a Ph.D. student at <a href="https://www.hkbu.edu.hk/">Hong Kong Baptist University</a>, working on trustworthy machine learning.</p>
+    <p class="about-lead">I am currently pursuing my Ph.D. at <a href="https://www.hkbu.edu.hk/">Hong Kong Baptist University</a>, supervised by Prof. <a href="https://www.comp.hkbu.edu.hk/~xujl/index.html">Jianliang Xu</a> and Prof. <a href="https://imd.hkbu.edu.hk/faculty-member/Prof-Yupeng-LI.html">Yupeng Li</a>.</p>
+    <p>If you are interested in my work or would like to discuss research, please feel free to contact me by <a href="mailto:{{ site.author.academic_email }}">email</a> at any time.</p>
     <p>Outside the lab, I enjoy badminton and running, and have completed several half marathons. I grew up in Wulian, a mountain county in eastern China. You can find moments from life beyond research on my <a href="{{ '/sports/' | relative_url }}">Sports page <span aria-hidden="true">↗</span></a>.</p>
-    <div class="research-interests"><p class="interests-label">Research interests</p><div class="research-focus"><span>Trustworthy LLMs</span><span>Social computing</span><span>Robust federated learning</span></div></div>
+    <div class="research-interests"><p class="interests-label">Research interests</p><div class="research-focus"><span>Trustworthy AI</span><span>Online learning</span><span>Social computing</span></div></div>
   </div>
 </section>
 
@@ -34,7 +35,7 @@ redirect_from:
 </section>
 
 <section class="section" id="publications" aria-labelledby="publications-title">
-  <div class="section-heading"><div><p class="eyebrow">RESEARCH</p><h2 id="publications-title"><span class="heading-icon" aria-hidden="true">{% include profile-icon.html name="book" %}</span>Publications</h2></div><span class="section-note">2024 — {{ site.data.papers.first.year }}</span></div>
+  <div class="section-heading"><div><p class="eyebrow">RESEARCH</p><h2 id="publications-title"><span class="heading-icon" aria-hidden="true">{% include profile-icon.html name="book" %}</span>Publications</h2></div></div>
   {% include profile-publications.html %}
 </section>
 

@@ -1,7 +1,7 @@
 <ol class="publication-list">
   {% for paper in site.data.papers %}
   <li class="publication">
-    <p class="publication-citation"><span class="publication-label"><span>{{ paper.label }}</span><time>{{ paper.year }}</time></span> <a class="publication-title" href="{{ paper.url }}">{{ paper.title }}<span class="citation-arrow" aria-hidden="true">↗</span></a>. <span class="publication-authors">{{ paper.authors }}.</span> <cite class="publication-venue">{{ paper.venue }}.</cite>{% if paper.rank %} <span class="rank-tag">{{ paper.rank }}</span>{% endif %}</p>
+    <p class="publication-citation"><span class="publication-label">{{ paper.label }} <time datetime="{{ paper.year }}">{{ paper.year }}</time></span> <a class="publication-title" href="{{ paper.url }}">{{ paper.title }}<span class="citation-arrow" aria-hidden="true">↗</span></a>. <span class="publication-authors">{{ paper.authors }}.</span> <cite class="publication-venue">{{ paper.venue }}.</cite>{% if paper.rank %} <span class="rank-tag">{{ paper.rank }}</span>{% endif %}</p>
   </li>
   {% endfor %}
 </ol>

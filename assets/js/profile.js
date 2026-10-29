@@ -86,6 +86,35 @@
     updateActiveSection();
   }
 
+  const contactStatus = document.querySelector('.contact-status');
+  document.querySelectorAll('.copy-email').forEach(button => {
+    const label = button.getAttribute('aria-label');
+    let reset;
+    button.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(button.dataset.email);
+        clearTimeout(reset);
+        button.dataset.copied = 'true';
+        button.setAttribute('aria-label', 'Email address copied');
+        button.title = 'Copied';
+        contactStatus.textContent = `${button.dataset.email} copied to clipboard.`;
+        reset = setTimeout(() => {
+          delete button.dataset.copied;
+          button.setAttribute('aria-label', label);
+          button.title = label;
+        }, 2000);
+      } catch {
+        const address = button.closest('.email-contact').querySelector('.email-address');
+        const range = document.createRange();
+        range.selectNodeContents(address);
+        const selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        contactStatus.textContent = 'Email address selected. Use your usual copy command.';
+      }
+    });
+  });
+
   const viewer = document.getElementById('photo-viewer');
   if (viewer && typeof viewer.showModal === 'function') {
     const photos = [...document.querySelectorAll('a[data-gallery]')];
