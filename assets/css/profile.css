@@ -235,16 +235,17 @@ h3{font-size:16px;line-height:1.5;font-weight:600;letter-spacing:-.015em}
 .education-entry::before{position:absolute;z-index:2;left:-30px;top:10px;width:11px;height:11px;border:2px solid var(--accent);border-radius:50%;background:var(--paper);content:""}
 .education-entry:first-child::before{background:var(--accent);box-shadow:0 0 0 5px var(--accent-soft)}
 .education-entry:last-child::after{position:absolute;z-index:1;left:-30px;top:21px;bottom:0;width:11px;background:var(--paper);content:""}
-.education-topline h3{font-size:21px;line-height:1.5;letter-spacing:-.025em}
+.education-topline h3{font-size:17px;line-height:1.5;font-weight:600;letter-spacing:-.025em}
 .education-region{font-size:15px}
 .education-dates{font-size:13px;line-height:1.7}
 .education-dates span{font-size:12px}
 .education-degree{margin-top:6px;font-size:17px;line-height:1.8}
-.education-entry .supervisor-line{margin-top:5px;font-size:17px;line-height:1.8;color:var(--ink)}
-.supervisor-label{color:var(--accent);font-weight:650}
-.education-entry .supervisor-line a{font-weight:600}
+.education-entry .supervisor-line{margin-top:5px;font-size:17px;line-height:1.8;color:var(--body);font-weight:400}
+.supervisor-label{color:inherit;font-weight:400}
+.education-entry .supervisor-line a{color:inherit;font-weight:400;text-decoration:none}
+.education-entry .supervisor-line a:hover{text-decoration:underline}
 .education-entry .fellow-label{font-size:14px;color:var(--muted)}
-@media(max-width:800px){.education-list{padding-left:25px}.education-entry::before,.education-entry:last-child::after{left:-25px}.education-topline h3{font-size:18px;line-height:1.6}.education-region{font-size:13px}.education-dates{font-size:12px}.education-dates span{font-size:11px}.education-degree{font-size:15px;line-height:1.85}.education-entry .supervisor-line{font-size:15px;line-height:1.85}.education-entry .fellow-label{font-size:12px}.education-entry+.education-entry{margin-top:27px}}
+@media(max-width:800px){.education-list{padding-left:25px}.education-entry::before,.education-entry:last-child::after{left:-25px}.education-topline h3{font-size:16px;line-height:1.6}.education-region{font-size:13px}.education-dates{font-size:12px}.education-dates span{font-size:11px}.education-degree{font-size:15px;line-height:1.85}.education-entry .supervisor-line{font-size:15px;line-height:1.85}.education-entry .fellow-label{font-size:12px}.education-entry+.education-entry{margin-top:27px}}
 
 /* Readable contact details and a consistent type scale. */
 .header-inner{justify-content:flex-end}
@@ -292,8 +293,8 @@ h3{font-size:16px;line-height:1.5;font-weight:600;letter-spacing:-.015em}
 /* Give the introduction breathing room and make key details prominent. */
 .about-copy>p,.about-copy .research-interests{margin-left:47px}
 .about-fellow{font-size:inherit;white-space:nowrap;color:var(--ink)}
-.about-copy .person-link,.education-entry .supervisor-line .person-link{color:#174b8c;font-weight:700;text-decoration:underline;text-decoration-color:currentColor;text-decoration-thickness:1.5px;text-underline-offset:4px}
-.about-copy .person-link:hover,.education-entry .supervisor-line .person-link:hover{color:#082f61;text-decoration-thickness:2px}
+.about-copy .person-link{color:#174b8c;font-weight:700;text-decoration:underline;text-decoration-color:currentColor;text-decoration-thickness:1.5px;text-underline-offset:4px}
+.about-copy .person-link:hover{color:#082f61;text-decoration-thickness:2px}
 .education-dates{font-size:18px;font-weight:600;color:var(--ink)}
 .experience-item h3,.experience-item p,.experience-item .experience-description{font-size:17px;line-height:1.85}
 .experience-item>span{font-size:16px;line-height:1.85}
