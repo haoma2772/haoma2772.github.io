@@ -121,7 +121,7 @@ h3{font-size:16px;line-height:1.5;font-weight:600;letter-spacing:-.015em}
 .sports-content{padding-top:55px}
 .sports-intro{display:flex;justify-content:space-between;align-items:end;gap:50px;margin-bottom:54px}
 .sports-intro h1{font-size:60px;margin-bottom:20px}
-.sports-intro .sports-lead{max-width:610px;font-size:16px;line-height:1.9}
+.sports-intro .sports-lead{max-width:none;font-size:16px;line-height:1.9}
 .sports-shortcuts{display:flex;gap:20px;flex-shrink:0;padding-bottom:4px;font-size:12px}
 .sports-shortcuts a{white-space:nowrap}
 .sports-section{padding:44px 0;border-top:1px solid var(--line)}
@@ -348,12 +348,12 @@ h3{font-size:16px;line-height:1.5;font-weight:600;letter-spacing:-.015em}
 .home-page .research-focus span{font-size:15px}
 .home-page .education-section .section-heading h2{font-size:29px}
 .home-page .education-topline h3,.home-page .education-region,.home-page .education-degree,.home-page .education-entry .supervisor-line{font-size:15px}
-.home-page .education-dates{font-size:16px}
+.home-page .education-dates{font-size:15px;font-weight:400}
 .home-page .publication-citation,.home-page .publication-authors,.home-page .publication-venue{font-size:15px}
 .home-page .publication-title{font-size:16px}
 .home-page .publication-label{font-size:13px}
 .home-page .rank-tag{font-size:11px}
 .home-page .awards-list p,.home-page .experience-item h3,.home-page .experience-item p,.home-page .experience-item .experience-description{font-size:16px}
 .home-page .awards-list li>span,.home-page .experience-item>span{font-size:15px}
-@media(max-width:800px){.home-page .profile-english-name{font-size:14px}.home-page .about-copy h1{font-size:29px}.home-page .home-content .section-heading h2{font-size:28px}.home-page .education-section .section-heading h2{font-size:27px}.home-page .about-copy>p,.home-page .interests-label{font-size:15px}.home-page .about-copy>.about-lead{font-size:16px}.home-page .research-focus span{font-size:14px}.home-page .education-topline h3,.home-page .education-region,.home-page .education-degree,.home-page .education-entry .supervisor-line{font-size:14px}.home-page .education-dates{font-size:15px}.home-page .publication-citation,.home-page .publication-authors,.home-page .publication-venue{font-size:14px}.home-page .publication-title{font-size:15px}.home-page .awards-list p,.home-page .awards-list li>span,.home-page .experience-item h3,.home-page .experience-item p,.home-page .experience-item .experience-description,.home-page .experience-item>span{font-size:15px}}
+@media(max-width:800px){.home-page .profile-english-name{font-size:14px}.home-page .about-copy h1{font-size:29px}.home-page .home-content .section-heading h2{font-size:28px}.home-page .education-section .section-heading h2{font-size:27px}.home-page .about-copy>p,.home-page .interests-label{font-size:15px}.home-page .about-copy>.about-lead{font-size:16px}.home-page .research-focus span{font-size:14px}.home-page .education-topline h3,.home-page .education-region,.home-page .education-degree,.home-page .education-entry .supervisor-line{font-size:14px}.home-page .education-dates{font-size:14px}.home-page .publication-citation,.home-page .publication-authors,.home-page .publication-venue{font-size:14px}.home-page .publication-title{font-size:15px}.home-page .awards-list p,.home-page .awards-list li>span,.home-page .experience-item h3,.home-page .experience-item p,.home-page .experience-item .experience-description,.home-page .experience-item>span{font-size:15px}}
 @media(max-width:480px){.home-page .home-content .section-heading h2{font-size:27px}.home-page .education-section .section-heading h2{font-size:26px}.home-page .email-label{font-size:13px}.home-page .email-address{font-size:14px}}
