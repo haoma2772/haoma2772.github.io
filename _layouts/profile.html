@@ -11,6 +11,8 @@ layout: compress
   <meta property="og:image" content="{{ '/images/haoma-portrait.jpg' | absolute_url }}">
   <meta name="theme-color" content="#fcfcfa">
   <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">
+  <link rel="preload" href="{{ '/assets/fonts/profile/source-sans-3-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ '/assets/fonts/profile/newsreader-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{{ '/assets/css/profile.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   <script>document.documentElement.classList.replace('no-js', 'js');</script>
   <script src="{{ '/assets/js/profile.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

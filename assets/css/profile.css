@@ -1,7 +1,12 @@
-:root{--paper:#fcfcfa;--ink:#243330;--body:#4d5855;--muted:#68766f;--accent:#286052;--accent-soft:#edf3ef;--line:#e3e8e2;--serif:Georgia,"Times New Roman","Noto Serif SC",serif;--sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"PingFang SC","Microsoft YaHei",sans-serif}
+/* Self-hosted Latin fonts; licenses and upstream sources live in assets/fonts/profile. */
+@font-face{font-family:Newsreader;font-style:normal;font-weight:200 800;font-display:swap;src:url("../fonts/profile/newsreader-latin.woff2") format("woff2")}
+@font-face{font-family:Newsreader;font-style:italic;font-weight:400;font-display:swap;src:url("../fonts/profile/newsreader-latin-italic.woff2") format("woff2")}
+@font-face{font-family:"Source Sans 3";font-style:normal;font-weight:200 900;font-display:swap;src:url("../fonts/profile/source-sans-3-latin.woff2") format("woff2")}
+@font-face{font-family:"Source Sans 3";font-style:italic;font-weight:200 900;font-display:swap;src:url("../fonts/profile/source-sans-3-latin-italic.woff2") format("woff2")}
+:root{--paper:#fcfcfa;--ink:#243330;--body:#4d5855;--muted:#68766f;--accent:#286052;--accent-soft:#edf3ef;--line:#e3e8e2;--serif:Newsreader,Georgia,"Times New Roman",serif;--sans:"Source Sans 3","Segoe UI",Arial,"PingFang SC","Microsoft YaHei",sans-serif}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body.profile-site{margin:0;background:var(--paper);color:var(--body);font-family:var(--sans);font-size:16px;line-height:1.75;-webkit-font-smoothing:antialiased}
+body.profile-site{margin:0;background:var(--paper);color:var(--body);font-family:var(--sans);font-size:16px;line-height:1.75;font-optical-sizing:auto;-webkit-font-smoothing:antialiased}
 body.viewer-open{overflow:hidden}
 a{color:var(--accent);text-decoration:none;text-underline-offset:4px}
 a:hover{text-decoration:underline}
@@ -12,7 +17,7 @@ img{max-width:100%;height:auto}
 svg{flex-shrink:0;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 h1,h2,h3,p,figure{margin:0}
 h1,h2,h3{color:var(--ink)}
-h1,h2{font-family:var(--serif);font-weight:400;letter-spacing:-.035em}
+h1,h2{font-family:var(--serif);font-weight:450;letter-spacing:-.015em}
 h1{font-size:52px;line-height:1.15}
 h2{font-size:31px;line-height:1.25}
 h3{font-size:16px;line-height:1.5;font-weight:600;letter-spacing:-.015em}
@@ -33,7 +38,7 @@ h3{font-size:16px;line-height:1.5;font-weight:600;letter-spacing:-.015em}
 .home-layout{display:grid;grid-template-columns:232px minmax(0,1fr);gap:80px;padding-top:54px}
 .profile-sidebar{align-self:start;position:sticky;top:116px}
 .profile-photo-frame{aspect-ratio:1;overflow:hidden;border-radius:12px}.profile-photo{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 53%;transform:scale(1.35);transform-origin:52% 85%}
-.profile-name{margin:22px 0 5px;color:var(--ink);font-size:27px;font-weight:650;letter-spacing:-.045em;line-height:1.4}
+.profile-name{margin:22px 0 5px;color:var(--ink);font-family:var(--serif);font-size:27px;font-weight:500;letter-spacing:-.025em;line-height:1.4}
 .profile-name span{display:inline-block;margin-left:6px;font-family:var(--serif);font-size:18px;letter-spacing:.06em;font-weight:400;color:var(--body)}
 .profile-role{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--accent);font-weight:600}
 .status-dot{height:6px;width:6px;border-radius:50%;background:var(--accent)}
@@ -176,7 +181,7 @@ h3{font-size:16px;line-height:1.5;font-weight:600;letter-spacing:-.015em}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
 
 /* Wider academic content, with continuous title-and-author citations. */
-.profile-english-name{margin:0 0 10px;color:var(--muted);font-family:var(--serif);font-size:17px;line-height:1.5}
+.profile-english-name{margin:0 0 10px;color:var(--muted);font-family:var(--serif);font-style:italic;font-size:17px;line-height:1.5}
 .section.education-section{padding-top:0;border-top:0}
 .education-section h1{font-size:40px}
 .section.about-section{padding-top:38px;border-top:1px solid var(--line)}
@@ -235,7 +240,7 @@ h3{font-size:16px;line-height:1.5;font-weight:600;letter-spacing:-.015em}
 .education-entry::before{position:absolute;z-index:2;left:-30px;top:10px;width:11px;height:11px;border:2px solid var(--accent);border-radius:50%;background:var(--paper);content:""}
 .education-entry:first-child::before{background:var(--accent);box-shadow:0 0 0 5px var(--accent-soft)}
 .education-entry:last-child::after{position:absolute;z-index:1;left:-30px;top:21px;bottom:0;width:11px;background:var(--paper);content:""}
-.education-topline h3{font-size:17px;line-height:1.5;font-weight:600;letter-spacing:-.025em}
+.education-topline h3{font-size:17px;line-height:1.5;font-weight:600;letter-spacing:0}
 .education-region{font-size:15px}
 .education-dates{font-size:13px;line-height:1.7}
 .education-dates span{font-size:12px}
