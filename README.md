@@ -3,7 +3,7 @@
 
 Personal academic website: [haoma2772.github.io](https://haoma2772.github.io/).
 
-The site uses Jekyll with a custom academic profile layout, adapted from AcademicPages. The English homepage starts with About me, followed by Education and uses anchored sections; Sports combines all previous and new photos under Badminton and Running. Legacy page URLs redirect to their matching homepage sections.
+The site uses Jekyll with a custom academic profile layout, adapted from AcademicPages. The English homepage uses a vertical portrait and introduction, followed by full-width anchored sections and an education timeline; Sports combines all previous and new photos under Badminton and Running. Legacy page URLs redirect to their matching homepage sections.
 
 ## Content locations
 

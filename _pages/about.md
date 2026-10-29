@@ -8,25 +8,29 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<section class="intro section about-section" id="about" aria-labelledby="about-title">
-  <div class="section-heading"><div><p class="eyebrow">RESEARCH · LEARNING · LIFE</p><h1 id="about-title">About me</h1></div></div>
-  <p class="intro-lead">I’m Hao Ma, also known as Lucian, a Ph.D. student at <a href="https://www.hkbu.edu.hk/">Hong Kong Baptist University</a>. My research focuses on making machine learning more trustworthy.</p>
-  <p>Beyond research, I enjoy badminton and running, and have completed several half marathons. I grew up in Wulian, a mountain county in eastern China. You can find moments from life outside the lab on my <a href="{{ '/sports/' | relative_url }}">Sports page <span aria-hidden="true">↗</span></a>.</p>
-  <div class="research-focus" aria-label="Research interests"><span>Trustworthy LLMs</span><span>Social computing</span><span>Robust federated learning</span></div>
+<section class="section about-section" id="about" aria-labelledby="about-title">
+  {% include profile-intro.html %}
+  <div class="about-copy">
+    <h2 id="about-title">About me</h2>
+    <p class="about-lead">I am a Ph.D. student at <a href="https://www.hkbu.edu.hk/">Hong Kong Baptist University</a>. My research focuses on making machine learning more trustworthy.</p>
+    <p>Outside the lab, I enjoy badminton and running, and have completed several half marathons. I grew up in Wulian, a mountain county in eastern China. You can find moments from life beyond research on my <a href="{{ '/sports/' | relative_url }}">Sports page <span aria-hidden="true">↗</span></a>.</p>
+    <div class="research-interests"><p class="interests-label">Research interests</p><div class="research-focus"><span>Trustworthy LLMs</span><span>Social computing</span><span>Robust federated learning</span></div></div>
+    <p class="profile-motto">“To be like grass, staying humble is best.”</p>
+  </div>
 </section>
 
 <section class="section education-section" id="education" aria-labelledby="education-title">
-  <div class="section-heading"><div><p class="eyebrow">BACKGROUND</p><h2 id="education-title">Education</h2></div></div>
+  <div class="section-heading"><h2 id="education-title">Education</h2></div>
   <div class="education-list">
     <article class="education-entry">
       <div class="education-topline"><h3>Hong Kong Baptist University<span class="education-region">, HKSAR</span></h3><p class="education-dates">2025 — 2029 <span>(expected)</span></p></div>
       <p class="education-degree">Ph.D. in <a href="https://www.comp.hkbu.edu.hk/v1/">Computer Science</a> and <a href="https://gs.hkbu.edu.hk/current-students/institute-of-transdisciplinary-studies-its-programme" title="Institute of Transdisciplinary Studies">ITS</a></p>
-      <p class="supervisor-line">Supervisors: <a href="https://www.comp.hkbu.edu.hk/~xujl/index.html">Jianliang Xu</a> <span class="fellow-label">(IEEE Fellow)</span> and <a href="https://imd.hkbu.edu.hk/faculty-member/Prof-Yupeng-LI.html">Yupeng Li</a></p>
+      <p class="supervisor-line"><strong class="supervisor-label">Supervisors:</strong> <a href="https://www.comp.hkbu.edu.hk/~xujl/index.html">Jianliang Xu</a> <span class="fellow-label">(IEEE Fellow)</span> and <a href="https://imd.hkbu.edu.hk/faculty-member/Prof-Yupeng-LI.html">Yupeng Li</a></p>
     </article>
     <article class="education-entry">
       <div class="education-topline"><h3>Shandong University</h3><p class="education-dates">2021 — 2025</p></div>
       <p class="education-degree">B.Eng., School of Computer Science and Technology</p>
-      <p class="supervisor-line">Supervisor: <a href="https://www.cs.sdu.edu.cn/info/1071/4896.htm">Yifei Zou</a></p>
+      <p class="supervisor-line"><strong class="supervisor-label">Supervisor:</strong> <a href="https://www.cs.sdu.edu.cn/info/1071/4896.htm">Yifei Zou</a></p>
     </article>
   </div>
 </section>

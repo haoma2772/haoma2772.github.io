@@ -211,3 +211,53 @@ h3{font-size:16px;line-height:1.5;font-weight:600;letter-spacing:-.015em}
 .event-photo{height:205px;scroll-snap-align:start;border:1px solid var(--line);border-radius:6px}
 .event-photo img{display:block;width:100%;height:100%;padding:5px;object-fit:contain}
 @media(max-width:800px){.about-section h1{font-size:34px}.section.education-section{padding-top:34px}.education-topline{flex-wrap:wrap;gap:2px 20px}.education-topline h3{font-size:16px}.education-dates{font-size:11px}.education-degree,.education-entry .supervisor-line{font-size:13px}.event-gallery{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:minmax(164px,46%);gap:12px;max-width:100%}.event-photo{height:180px}.album-heading{gap:14px}.album-heading h3{font-size:15px}}
+
+/* A vertical introduction, followed by full-width academic sections. */
+.home-page .site-shell,.home-page .header-inner{max-width:1280px}
+.home-layout{display:block;padding-top:40px}
+.section.about-section{padding-bottom:44px}
+.profile-intro{display:flex;flex-direction:column;align-items:center;text-align:center}
+.profile-intro .profile-photo-frame{width:128px;height:144px;aspect-ratio:auto;border:5px solid #fff;border-radius:12px;box-shadow:0 0 0 1px var(--line)}
+.profile-intro .profile-photo{object-position:50% 53%}
+.profile-identity{margin-top:17px}
+.profile-intro .profile-name{margin:0;font-family:var(--serif);font-size:44px;line-height:1.15;letter-spacing:-.045em;font-weight:400}
+.profile-intro .profile-english-name{margin:3px 0 0;font-size:17px;line-height:1.5}
+.profile-intro .profile-role{justify-content:center;gap:7px;margin-top:10px;font-size:12px}
+.profile-intro .profile-university{max-width:none;margin-top:2px;font-size:13px}
+.profile-intro .profile-links{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:17px;padding:0;border:0}
+.profile-intro .profile-links a{display:inline-flex;align-items:center;gap:7px;min-height:33px;padding:3px 12px;border:1px solid var(--line);border-radius:30px;color:var(--body);font-size:12px;background:transparent;transition:background .15s,border-color .15s}
+.profile-intro .profile-links a:hover{background:var(--accent-soft);border-color:#b9cabe;color:var(--accent)}
+.profile-intro .profile-links svg,.profile-intro .orcid-icon{width:15px;height:15px}
+.profile-intro .orcid-icon{line-height:12px;font-size:9px}
+.profile-intro .profile-links a>span:last-child{display:none}
+.about-copy{max-width:760px;margin:34px auto 0}
+.about-copy h2{font-size:28px;line-height:1.3;letter-spacing:-.025em;margin-bottom:18px}
+.about-copy>p{font-size:16px;line-height:1.85}
+.about-copy>p+p{margin-top:14px}
+.about-copy>.about-lead{font-size:19px;line-height:1.75;color:var(--ink);letter-spacing:-.01em}
+.about-copy a{text-decoration:underline;text-decoration-color:#b4c8bf;text-decoration-thickness:1px}
+.research-interests{margin-top:21px}
+.interests-label{font-size:11px;line-height:1.7;font-weight:600;color:var(--muted)}
+.research-interests .research-focus{margin-top:8px;gap:8px}
+.about-copy>.profile-motto{display:block;margin:24px 0 0;padding-top:17px;border-top:1px solid var(--line);font-family:var(--serif);font-size:14px;line-height:1.6;color:var(--muted)}
+@media(min-width:801px){.home-page .site-shell,.home-page .header-inner{width:calc(100% - 80px)}}
+@media(max-width:800px){.home-layout{padding-top:32px}.section.about-section{padding-bottom:34px}.profile-intro .profile-photo-frame{width:112px;height:126px}.profile-intro .profile-name{font-size:39px}.profile-intro .profile-english-name{font-size:16px}.profile-intro .profile-university{font-size:12px}.profile-intro .profile-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;width:300px;max-width:100%}.profile-intro .profile-links a{justify-content:center;min-height:36px;padding:3px 10px;font-size:12px}.about-copy{margin-top:30px}.about-copy h2{font-size:26px;margin-bottom:14px}.about-copy>p{font-size:15px;line-height:1.85}.about-copy>.about-lead{font-size:17px;line-height:1.8}.about-copy>.profile-motto{font-size:13px;margin-top:21px;padding-top:15px}}
+
+/* Education timeline: keep the three content rows, with clearer type. */
+.education-list{position:relative;padding-left:30px}
+.education-list::before{position:absolute;left:5px;top:15px;bottom:14px;width:1px;background:#bdd0c6;content:""}
+.education-entry{position:relative}
+.education-entry+.education-entry{margin-top:32px}
+.education-entry::before{position:absolute;z-index:2;left:-30px;top:10px;width:11px;height:11px;border:2px solid var(--accent);border-radius:50%;background:var(--paper);content:""}
+.education-entry:first-child::before{background:var(--accent);box-shadow:0 0 0 5px var(--accent-soft)}
+.education-entry:last-child::after{position:absolute;z-index:1;left:-30px;top:21px;bottom:0;width:11px;background:var(--paper);content:""}
+.education-topline h3{font-size:21px;line-height:1.5;letter-spacing:-.025em}
+.education-region{font-size:15px}
+.education-dates{font-size:13px;line-height:1.7}
+.education-dates span{font-size:12px}
+.education-degree{margin-top:6px;font-size:17px;line-height:1.8}
+.education-entry .supervisor-line{margin-top:5px;font-size:17px;line-height:1.8;color:var(--ink)}
+.supervisor-label{color:var(--accent);font-weight:650}
+.education-entry .supervisor-line a{font-weight:600}
+.education-entry .fellow-label{font-size:14px;color:var(--muted)}
+@media(max-width:800px){.education-list{padding-left:25px}.education-entry::before,.education-entry:last-child::after{left:-25px}.education-topline h3{font-size:18px;line-height:1.6}.education-region{font-size:13px}.education-dates{font-size:12px}.education-dates span{font-size:11px}.education-degree{font-size:15px;line-height:1.85}.education-entry .supervisor-line{font-size:15px;line-height:1.85}.education-entry .fellow-label{font-size:12px}.education-entry+.education-entry{margin-top:27px}}
