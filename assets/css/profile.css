@@ -336,3 +336,24 @@ h3{font-size:16px;line-height:1.5;font-weight:600;letter-spacing:-.015em}
 .album-heading{margin-bottom:10px}
 .sports-outro{padding-top:16px}
 @media(max-width:800px){.header-inner{min-height:66px}.nav-links a{padding:10px 5px}.home-layout{padding-top:24px}.profile-sidebar{padding-bottom:22px;margin-bottom:24px}.section{padding:20px 0}.section.about-section{padding-bottom:20px}.section.education-section{padding-top:20px}.home-content .section-heading{margin-bottom:16px}.about-copy>p,.about-copy>.about-lead{line-height:1.6}.education-entry+.education-entry{margin-top:18px}.education-degree,.education-entry .supervisor-line{line-height:1.55}.sports-content{padding-top:24px}.sports-intro{margin-bottom:24px}.sports-section{padding:22px 0}.sports-outro a{margin-top:8px}}
+
+/* A slightly smaller type scale for the academic homepage. */
+.home-page .profile-name{font-size:26px}
+.home-page .profile-english-name{font-size:16px}
+.home-page .profile-role,.home-page .profile-university,.home-page .email-label{font-size:12px}
+.home-page .email-address,.home-page .profile-links a,.home-page .profile-motto{font-size:13px}
+.home-page .about-copy h1{font-size:32px}
+.home-page .home-content .section-heading h2{font-size:30px}
+.home-page .about-copy>p,.home-page .about-copy>.about-lead,.home-page .interests-label{font-size:16px}
+.home-page .research-focus span{font-size:15px}
+.home-page .education-section .section-heading h2{font-size:29px}
+.home-page .education-topline h3,.home-page .education-region,.home-page .education-degree,.home-page .education-entry .supervisor-line{font-size:15px}
+.home-page .education-dates{font-size:16px}
+.home-page .publication-citation,.home-page .publication-authors,.home-page .publication-venue{font-size:15px}
+.home-page .publication-title{font-size:16px}
+.home-page .publication-label{font-size:13px}
+.home-page .rank-tag{font-size:11px}
+.home-page .awards-list p,.home-page .experience-item h3,.home-page .experience-item p,.home-page .experience-item .experience-description{font-size:16px}
+.home-page .awards-list li>span,.home-page .experience-item>span{font-size:15px}
+@media(max-width:800px){.home-page .profile-english-name{font-size:14px}.home-page .about-copy h1{font-size:29px}.home-page .home-content .section-heading h2{font-size:28px}.home-page .education-section .section-heading h2{font-size:27px}.home-page .about-copy>p,.home-page .interests-label{font-size:15px}.home-page .about-copy>.about-lead{font-size:16px}.home-page .research-focus span{font-size:14px}.home-page .education-topline h3,.home-page .education-region,.home-page .education-degree,.home-page .education-entry .supervisor-line{font-size:14px}.home-page .education-dates{font-size:15px}.home-page .publication-citation,.home-page .publication-authors,.home-page .publication-venue{font-size:14px}.home-page .publication-title{font-size:15px}.home-page .awards-list p,.home-page .awards-list li>span,.home-page .experience-item h3,.home-page .experience-item p,.home-page .experience-item .experience-description,.home-page .experience-item>span{font-size:15px}}
+@media(max-width:480px){.home-page .home-content .section-heading h2{font-size:27px}.home-page .education-section .section-heading h2{font-size:26px}.home-page .email-label{font-size:13px}.home-page .email-address{font-size:14px}}
