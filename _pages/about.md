@@ -50,5 +50,5 @@ redirect_from:
 <section class="section" id="experience" aria-labelledby="experience-title">
   <div class="section-heading"><div><h2 id="experience-title"><span class="heading-icon" aria-hidden="true">{% include profile-icon.html name="briefcase" %}</span>Experience</h2></div></div>
   <div class="experience-item"><div><h3>Research Intern</h3><p>Shenzhen Institute, Hong Kong Baptist University</p></div><span>Feb. 2025 – Aug. 2025</span></div>
-  <div class="experience-item"><div><h3>Computer Elite Class</h3><p>Institute of Intelligent Computing (IIC)</p><p class="experience-description">A program designed to develop outstanding computer science students and future leaders in the IT industry. I carried out its research training and practical work at IIC.</p></div><span>2021 cohort</span></div>
+  <div class="experience-item"><div><h3>Computer Elite Class</h3><p>Institute of Intelligent Computing (IIC)</p><p class="experience-description">A program designed to develop outstanding computer science students and future leaders in the IT industry. I carried out its research training and practical work at IIC.</p></div><span>2022 – 2025</span></div>
 </section>

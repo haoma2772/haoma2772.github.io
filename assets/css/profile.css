@@ -20,16 +20,16 @@ h3{font-size:16px;line-height:1.5;font-weight:600;letter-spacing:-.015em}
 .skip-link{position:fixed;left:24px;top:-100px;z-index:100;background:var(--accent);color:#fff;padding:10px 20px}
 .skip-link:focus{top:12px}
 .site-header{position:sticky;top:0;z-index:30;background:rgba(252,252,250,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
-.header-inner{display:flex;align-items:center;justify-content:space-between;gap:40px;min-height:76px}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:40px;min-height:68px}
 .wordmark{display:flex;align-items:baseline;gap:12px;white-space:nowrap;color:var(--ink);font-size:21px;letter-spacing:-.05em;font-weight:650}
 .wordmark:hover{text-decoration:none}
 .wordmark span{font-family:var(--serif);font-size:14px;font-weight:400;color:var(--muted);letter-spacing:.08em}
 .nav-links{display:flex;align-items:center;gap:27px;list-style:none;padding:0;margin:0}
-.nav-links a{display:block;position:relative;padding:26px 0 24px;color:var(--body);font-size:13px;line-height:24px;white-space:nowrap;transition:color .15s}
+.nav-links a{display:block;position:relative;padding:20px 0 18px;color:var(--body);font-size:15px;line-height:24px;white-space:nowrap;transition:color .15s}
 .nav-links a:hover,.nav-links a.is-active{color:var(--accent);text-decoration:none}
 .nav-links a.is-active:after{position:absolute;bottom:16px;left:0;width:16px;height:2px;background:var(--accent);content:""}
 .nav-arrow{font-size:12px;margin-left:5px}
-.menu-toggle{display:none;align-items:center;gap:8px;background:none;border:0;padding:10px 0;color:var(--ink);font-size:13px;cursor:pointer}
+.menu-toggle{display:none;align-items:center;gap:8px;background:none;border:0;padding:10px 0;color:var(--ink);font-size:15px;cursor:pointer}
 .home-layout{display:grid;grid-template-columns:232px minmax(0,1fr);gap:80px;padding-top:54px}
 .profile-sidebar{align-self:start;position:sticky;top:116px}
 .profile-photo-frame{aspect-ratio:1;overflow:hidden;border-radius:12px}.profile-photo{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 53%;transform:scale(1.35);transform-origin:52% 85%}
@@ -299,3 +299,40 @@ h3{font-size:16px;line-height:1.5;font-weight:600;letter-spacing:-.015em}
 .experience-item h3,.experience-item p,.experience-item .experience-description{font-size:17px;line-height:1.85}
 .experience-item>span{font-size:16px;line-height:1.85}
 @media(max-width:800px){.about-copy>p,.about-copy .research-interests{margin-left:12px}.about-copy>.about-lead{font-size:17px}.education-dates{font-size:17px}.experience-item h3,.experience-item p,.experience-item .experience-description,.experience-item>span{font-size:16px;line-height:1.85}}
+
+/* Compact academic rhythm, with readable type and a larger navigation. */
+.home-layout{padding-top:34px}
+.profile-sidebar{top:92px}
+#main-content,.section[id],.sports-section[id]{scroll-margin-top:90px}
+.section{padding:24px 0}
+.section.about-section{padding:0 0 24px}
+.section.education-section{padding-top:24px}
+.home-content .section-heading{margin-bottom:18px}
+.about-copy>p,.about-copy>.about-lead{line-height:1.55}
+.about-copy>p+p{margin-top:10px}
+.research-interests{margin-top:14px}
+.interests-label{line-height:1.5}
+.research-interests .research-focus{margin-top:7px}
+.research-focus span{line-height:1.5;padding:4px 10px}
+.education-degree,.education-entry .supervisor-line{line-height:1.5;margin-top:3px}
+.education-dates{line-height:1.5}
+.education-entry+.education-entry{margin-top:20px}
+.publication{padding:12px 0}
+.publication-citation{line-height:1.5}
+.awards-list li{margin-top:12px}
+.awards-list li>span,.awards-list p{line-height:1.5}
+.experience-item{margin-bottom:16px}
+.experience-item:last-child{margin-bottom:0}
+.experience-item h3,.experience-item p,.experience-item .experience-description,.experience-item>span{line-height:1.5}
+.experience-item .experience-description{margin-top:5px}
+.site-footer{margin-top:24px;padding:20px 0 24px}
+.sports-content{padding-top:34px}
+.sports-intro{margin-bottom:30px}
+.sports-intro h1{margin-bottom:14px}
+.sports-intro .sports-lead{line-height:1.6}
+.sports-section{padding:26px 0}
+.sports-section .section-heading{margin-bottom:16px}
+.race-album{margin-top:24px}
+.album-heading{margin-bottom:10px}
+.sports-outro{padding-top:16px}
+@media(max-width:800px){.header-inner{min-height:66px}.nav-links a{padding:10px 5px}.home-layout{padding-top:24px}.profile-sidebar{padding-bottom:22px;margin-bottom:24px}.section{padding:20px 0}.section.about-section{padding-bottom:20px}.section.education-section{padding-top:20px}.home-content .section-heading{margin-bottom:16px}.about-copy>p,.about-copy>.about-lead{line-height:1.6}.education-entry+.education-entry{margin-top:18px}.education-degree,.education-entry .supervisor-line{line-height:1.55}.sports-content{padding-top:24px}.sports-intro{margin-bottom:24px}.sports-section{padding:22px 0}.sports-outro a{margin-top:8px}}
