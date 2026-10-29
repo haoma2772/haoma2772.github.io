@@ -404,3 +404,8 @@ h3{font-size:16px;line-height:1.5;font-weight:600;letter-spacing:-.015em}
 .home-page .profile-links a>span:last-child{font-size:14px}
 .home-page .copy-email{width:34px;height:34px;flex-basis:34px}
 .home-page .copy-email svg{width:20px;height:20px}
+
+/* Give each section title a little space above and beside its icon. */
+.home-page .home-content .section-heading{padding-top:6px;padding-left:10px}
+.home-page .home-content .section-heading :is(h1,h2){gap:14px}
+@media(max-width:800px){.home-page .home-content .section-heading{padding-top:4px;padding-left:8px}.home-page .home-content .section-heading :is(h1,h2){gap:12px}}
