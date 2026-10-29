@@ -3,19 +3,21 @@
 
 Personal academic website: [haoma2772.github.io](https://haoma2772.github.io/).
 
-The site uses Jekyll and AcademicPages. Keep the existing theme when making visual refinements.
+The site uses Jekyll with a custom academic profile layout, adapted from AcademicPages. The homepage is a single page with anchored sections; Sports is a separate photo page. Legacy page URLs redirect to their matching homepage sections.
 
 ## Content locations
 
 | Content | File |
 | --- | --- |
 | English homepage | `_pages/about.md` |
-| Chinese homepage | `_pages/chinese.md` |
-| Shared publication list | `_includes/publication-list.md` |
-| CV and running photos | `_pages/cv.md`, `_pages/sports.md` |
+| Chinese introduction | `#chinese` in `_pages/about.md` |
+| Publications | `_data/papers.yml`, `_includes/profile-publications.html` |
+| CV | `#cv` in `_pages/about.md`, `files/HaoMa_CV.pdf` |
+| Sports and photo albums | `_pages/sports.md`, `images/sports/` |
 | Profile and site metadata | `_config.yml` |
 | Navigation | `_data/navigation.yml` |
-| Small style adjustments | `_sass/_custom.scss` |
+| Layout and visual design | `_layouts/profile.html`, `assets/css/profile.css` |
+| Navigation and photo viewer behavior | `assets/js/profile.js` |
 
 ## Local preview
 
@@ -28,7 +30,7 @@ bundle exec jekyll serve --host 127.0.0.1
 
 Open `http://127.0.0.1:4000`. Changes to `_config.yml` require restarting the server.
 
-If JavaScript source files change, run `npm install` and `npm run build:js` to update the committed `assets/js/main.min.js` bundle. Generated pages, dependencies, and local caches are ignored by Git.
+The custom homepage and Sports page use buildless CSS and JavaScript. The original theme bundle remains available for legacy template development (`npm install` and `npm run build:js`). Generated pages, dependencies, and local caches are ignored by Git. When replacing the CV PDF, also refresh its preview image in `images/HaoMa_CV_preview.jpg`.
 
 ## Theme credits
 

@@ -21,7 +21,7 @@ repository               : "haoma2772/haoma2772.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "HaoMa.png"
+  avatar           : "haoma-portrait.jpg"
   name             : "Hao Ma"
   pronouns         : # example: "she/her"  
   bio              : "To be like grass, staying humble is best."
@@ -171,6 +171,32 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/portfolio.html
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _pages/terms.md
+  - _pages/year-archive.html
+  - _posts
+  - _publications
+  - _portfolio
+  - _talks
+  - _teaching
+  - talkmap
+  - markdown_generator
+  - talkmap.ipynb
+  - talkmap.py
+  - CONTRIBUTING.md
+  - _sports/running/readme.md
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
 keep_files:
   - .git
   - .svn
@@ -201,16 +227,16 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 

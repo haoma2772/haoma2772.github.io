@@ -1,0 +1,13 @@
+<ol class="publication-list">
+  {% for paper in site.data.papers %}
+  <li class="publication">
+    <div class="publication-label"><span>{{ paper.label }}</span><time>{{ paper.year }}</time></div>
+    <article>
+      <h3>{% if paper.pdf %}<a href="{{ paper.pdf | relative_url }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h3>
+      <p class="publication-authors">{{ paper.authors }}.</p>
+      <p class="publication-venue">{{ paper.venue }}{% if paper.rank %}<span class="rank-tag">{{ paper.rank }}</span>{% endif %}</p>
+      {% if paper.pdf %}<a class="paper-link" href="{{ paper.pdf | relative_url }}" aria-label="Read {{ paper.title | escape }} as a PDF">PDF <span aria-hidden="true">↗</span></a>{% endif %}
+    </article>
+  </li>
+  {% endfor %}
+</ol>
