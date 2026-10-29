@@ -286,5 +286,15 @@ h3{font-size:16px;line-height:1.5;font-weight:600;letter-spacing:-.015em}
 @media(max-width:800px){.profile-contacts{grid-column:1/-1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:18px;padding-top:14px}.email-contact+.email-contact{margin-top:0}.email-address{font-size:14px}.profile-links{margin-top:18px;column-gap:18px}.profile-links a{font-size:14px;min-height:32px}.about-copy>p{font-size:16px;line-height:1.85}.interests-label{font-size:16px}.research-focus span{font-size:15px;padding:4px 10px}.education-region{font-size:16px}.education-dates{margin-left:0;font-size:15px}.education-dates span{font-size:inherit}.education-degree,.education-entry .supervisor-line{font-size:16px;line-height:1.85}.education-entry .fellow-label{font-size:inherit}.home-content .eyebrow{font-size:12px}.home-page .publication-label{font-size:14px;padding:2px 8px;margin:0 8px 3px 0}.publication-citation{font-size:15px;line-height:1.95}.publication-title{font-size:16px}.publication-authors,.publication-venue{font-size:15px}.rank-tag{font-size:12px}.awards-list li{grid-template-columns:52px minmax(0,1fr);gap:16px}.awards-list li>span,.awards-list p{font-size:16px}.experience-item h3{font-size:18px}.experience-item p,.experience-item .experience-description{font-size:16px}.experience-item>span{font-size:15px}}
 @media(max-width:480px){.profile-contacts{grid-template-columns:1fr;gap:12px}.email-label{font-size:14px}.email-address{font-size:15px}.email-label-row{min-height:28px}.copy-email{width:32px;height:32px;flex-basis:32px}}
 
-.about-copy>.about-lead{text-wrap:balance}
+.about-copy>.about-lead{text-wrap:wrap;max-width:none;font-size:17px}
 .about-lead a:nth-of-type(n+2){white-space:nowrap}
+
+/* Give the introduction breathing room and make key details prominent. */
+.about-copy>p,.about-copy .research-interests{margin-left:47px}
+.about-fellow{font-size:inherit;white-space:nowrap;color:var(--ink)}
+.about-copy .person-link,.education-entry .supervisor-line .person-link{color:#174b8c;font-weight:700;text-decoration:underline;text-decoration-color:currentColor;text-decoration-thickness:1.5px;text-underline-offset:4px}
+.about-copy .person-link:hover,.education-entry .supervisor-line .person-link:hover{color:#082f61;text-decoration-thickness:2px}
+.education-dates{font-size:18px;font-weight:600;color:var(--ink)}
+.experience-item h3,.experience-item p,.experience-item .experience-description{font-size:17px;line-height:1.85}
+.experience-item>span{font-size:16px;line-height:1.85}
+@media(max-width:800px){.about-copy>p,.about-copy .research-interests{margin-left:12px}.about-copy>.about-lead{font-size:17px}.education-dates{font-size:17px}.experience-item h3,.experience-item p,.experience-item .experience-description,.experience-item>span{font-size:16px;line-height:1.85}}
