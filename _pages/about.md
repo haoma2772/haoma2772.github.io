@@ -28,7 +28,7 @@ redirect_from:
     </article>
     <article class="education-entry">
       <div class="education-topline"><h3>Shandong University<span class="education-region">, Qingdao, China</span></h3><p class="education-dates">2021 — 2025</p></div>
-      <p class="education-degree">B.Eng., School of Computer Science and Technology</p>
+      <p class="education-degree"><a href="https://www.cs.sdu.edu.cn/index.htm">B.Eng., School of Computer Science and Technology</a></p>
       <p class="supervisor-line"><strong class="supervisor-label">Supervisor:</strong> <a class="person-link" href="https://www.cs.sdu.edu.cn/info/1071/4896.htm">Yifei Zou</a></p>
     </article>
   </div>
