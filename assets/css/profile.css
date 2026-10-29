@@ -212,36 +212,20 @@ h3{font-size:16px;line-height:1.5;font-weight:600;letter-spacing:-.015em}
 .event-photo img{display:block;width:100%;height:100%;padding:5px;object-fit:contain}
 @media(max-width:800px){.about-section h1{font-size:34px}.section.education-section{padding-top:34px}.education-topline{flex-wrap:wrap;gap:2px 20px}.education-topline h3{font-size:16px}.education-dates{font-size:11px}.education-degree,.education-entry .supervisor-line{font-size:13px}.event-gallery{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:minmax(164px,46%);gap:12px;max-width:100%}.event-photo{height:180px}.album-heading{gap:14px}.album-heading h3{font-size:15px}}
 
-/* A vertical introduction, followed by full-width academic sections. */
-.home-page .site-shell,.home-page .header-inner{max-width:1280px}
-.home-layout{display:block;padding-top:40px}
-.section.about-section{padding-bottom:44px}
-.profile-intro{display:flex;flex-direction:column;align-items:center;text-align:center}
-.profile-intro .profile-photo-frame{width:128px;height:144px;aspect-ratio:auto;border:5px solid #fff;border-radius:12px;box-shadow:0 0 0 1px var(--line)}
-.profile-intro .profile-photo{object-position:50% 53%}
-.profile-identity{margin-top:17px}
-.profile-intro .profile-name{margin:0;font-family:var(--serif);font-size:44px;line-height:1.15;letter-spacing:-.045em;font-weight:400}
-.profile-intro .profile-english-name{margin:3px 0 0;font-size:17px;line-height:1.5}
-.profile-intro .profile-role{justify-content:center;gap:7px;margin-top:10px;font-size:12px}
-.profile-intro .profile-university{max-width:none;margin-top:2px;font-size:13px}
-.profile-intro .profile-links{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:17px;padding:0;border:0}
-.profile-intro .profile-links a{display:inline-flex;align-items:center;gap:7px;min-height:33px;padding:3px 12px;border:1px solid var(--line);border-radius:30px;color:var(--body);font-size:12px;background:transparent;transition:background .15s,border-color .15s}
-.profile-intro .profile-links a:hover{background:var(--accent-soft);border-color:#b9cabe;color:var(--accent)}
-.profile-intro .profile-links svg,.profile-intro .orcid-icon{width:15px;height:15px}
-.profile-intro .orcid-icon{line-height:12px;font-size:9px}
-.profile-intro .profile-links a>span:last-child{display:none}
-.about-copy{max-width:760px;margin:34px auto 0}
-.about-copy h2{font-size:28px;line-height:1.3;letter-spacing:-.025em;margin-bottom:18px}
-.about-copy>p{font-size:16px;line-height:1.85}
-.about-copy>p+p{margin-top:14px}
-.about-copy>.about-lead{font-size:19px;line-height:1.75;color:var(--ink);letter-spacing:-.01em}
+/* Left profile column, with a readable introduction above Education. */
+.about-copy{margin:0;max-width:none}
+.about-copy h1{display:flex;align-items:center;gap:13px;margin:0;font-size:38px;line-height:1.25}
+.about-copy>p{max-width:105ch;font-size:16px;line-height:1.9}
+.about-copy>p+p{margin-top:16px}
+.about-copy>.about-lead{max-width:94ch;font-size:18px;line-height:1.85;color:var(--ink);letter-spacing:-.01em}
 .about-copy a{text-decoration:underline;text-decoration-color:#b4c8bf;text-decoration-thickness:1px}
-.research-interests{margin-top:21px}
-.interests-label{font-size:11px;line-height:1.7;font-weight:600;color:var(--muted)}
-.research-interests .research-focus{margin-top:8px;gap:8px}
-.about-copy>.profile-motto{display:block;margin:24px 0 0;padding-top:17px;border-top:1px solid var(--line);font-family:var(--serif);font-size:14px;line-height:1.6;color:var(--muted)}
-@media(min-width:801px){.home-page .site-shell,.home-page .header-inner{width:calc(100% - 80px)}}
-@media(max-width:800px){.home-layout{padding-top:32px}.section.about-section{padding-bottom:34px}.profile-intro .profile-photo-frame{width:112px;height:126px}.profile-intro .profile-name{font-size:39px}.profile-intro .profile-english-name{font-size:16px}.profile-intro .profile-university{font-size:12px}.profile-intro .profile-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;width:300px;max-width:100%}.profile-intro .profile-links a{justify-content:center;min-height:36px;padding:3px 10px;font-size:12px}.about-copy{margin-top:30px}.about-copy h2{font-size:26px;margin-bottom:14px}.about-copy>p{font-size:15px;line-height:1.85}.about-copy>.about-lead{font-size:17px;line-height:1.8}.about-copy>.profile-motto{font-size:13px;margin-top:21px;padding-top:15px}}
+.research-interests{margin-top:23px}
+.interests-label{font-size:12px;line-height:1.7;font-weight:600;color:var(--muted)}
+.research-interests .research-focus{margin-top:9px;gap:8px}
+.home-content .section-heading h2{display:flex;align-items:center;gap:11px}
+.heading-icon{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:0 0 34px;border-radius:8px;background:var(--accent-soft);color:var(--accent)}
+.heading-icon svg{width:21px;height:21px;stroke-width:1.6}
+@media(max-width:800px){.about-copy h1{font-size:33px;gap:11px}.about-copy>p{font-size:15px;line-height:1.85}.about-copy>.about-lead{font-size:17px;line-height:1.8}.heading-icon{width:30px;height:30px;flex-basis:30px;border-radius:7px}.heading-icon svg{width:19px;height:19px}}
 
 /* Education timeline: keep the three content rows, with clearer type. */
 .education-list{position:relative;padding-left:30px}
