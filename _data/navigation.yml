@@ -1,13 +1,13 @@
 main:
-  - title: "Education"
-    url: /#education
-  - title: "About"
-    url: /#about
-  - title: "Publications"
-    url: /#publications
-  - title: "Awards"
-    url: /#honors
-  - title: "Experience"
-    url: /#experience
-  - title: "Sports"
-    url: /sports/
+- title: About
+  url: /#about
+- title: Education
+  url: /#education
+- title: Publications
+  url: /#publications
+- title: Awards
+  url: /#honors
+- title: Experience
+  url: /#experience
+- title: Sports
+  url: /sports/

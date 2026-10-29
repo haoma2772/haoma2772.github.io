@@ -24,7 +24,7 @@ layout: compress
         <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-navigation"><span>Menu</span><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
         <ul class="nav-links" id="main-navigation">
           {% for link in site.data.navigation.main %}
-          <li><a href="{{ link.url | relative_url }}"{% if page.kind == 'sports' and link.title == 'Sports' %} class="is-active" aria-current="page"{% elsif page.kind == 'home' and link.title == 'Education' %} class="is-active" aria-current="location"{% endif %}>{{ link.title }}{% if link.title == 'Sports' %}<span class="nav-arrow" aria-hidden="true">↗</span>{% endif %}</a></li>
+          <li><a href="{{ link.url | relative_url }}"{% if page.kind == 'sports' and link.title == 'Sports' %} class="is-active" aria-current="page"{% elsif page.kind == 'home' and link.title == 'About' %} class="is-active" aria-current="location"{% endif %}>{{ link.title }}{% if link.title == 'Sports' %}<span class="nav-arrow" aria-hidden="true">↗</span>{% endif %}</a></li>
           {% endfor %}
         </ul>
       </nav>

@@ -1,0 +1,70 @@
+badminton:
+  name: Badminton
+  date: Sept. 2026
+  date_iso: 2026-09
+  photos:
+  - path: /images/sports/badminton-court.jpg
+    alt: Hao Ma playing doubles badminton
+    width: 1440
+    height: 1080
+  - path: /images/sports/badminton-trophy.jpg
+    alt: A badminton tournament trophy
+    width: 810
+    height: 1440
+running:
+- name: Qingdao Maritime Half Marathon
+  date: Oct. 2023
+  date_iso: 2023-10
+  photos:
+  - path: /_sports/running/2023_haima1.jpg
+    alt: Qingdao Maritime Half Marathon — photo 1
+    width: 1440
+    height: 1080
+  - path: /_sports/running/2023_haima2.jpg
+    alt: Qingdao Maritime Half Marathon — photo 2
+    width: 1522
+    height: 1080
+  - path: /_sports/running/2023_haima3.jpg
+    alt: Qingdao Maritime Half Marathon — photo 3
+    width: 1440
+    height: 1080
+  - path: /images/sports/half-marathon-route.jpg
+    alt: Qingdao Maritime Half Marathon running route
+    width: 831
+    height: 1800
+- name: Jimo Half Marathon
+  date: May 2023
+  date_iso: 2023-05
+  photos:
+  - path: /_sports/running/2023_jimo1.jpg
+    alt: Jimo Half Marathon — photo 1
+    width: 2755
+    height: 1280
+  - path: /_sports/running/2023_jimo2.jpg
+    alt: Jimo Half Marathon — photo 2
+    width: 1440
+    height: 1080
+  - path: /_sports/running/2023_jimo3.jpg
+    alt: Jimo Half Marathon — photo 3
+    width: 1046
+    height: 736
+- name: Qingdao Marathon
+  date: Apr. 2023
+  date_iso: 2023-04
+  photos:
+  - path: /_sports/running/2023_qingma1.jpg
+    alt: Qingdao Marathon — photo 1
+    width: 1440
+    height: 1080
+  - path: /_sports/running/2023_qingma2.jpg
+    alt: Qingdao Marathon — photo 2
+    width: 1440
+    height: 1080
+  - path: /_sports/running/2023_qingma3.jpg
+    alt: Qingdao Marathon — photo 3
+    width: 1440
+    height: 1080
+  - path: /images/sports/qingdao-result.jpg
+    alt: Qingdao Marathon race result
+    width: 1080
+    height: 987

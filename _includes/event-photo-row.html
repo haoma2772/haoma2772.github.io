@@ -1,0 +1,5 @@
+<div class="event-gallery{% if include.event.photos.size == 2 %} event-gallery--two{% endif %}" style="--photo-count: {{ include.event.photos.size }}" role="group" aria-label="{{ include.event.name | escape }} photos">
+  {% for photo in include.event.photos %}
+  <a class="gallery-photo event-photo" href="{{ photo.path | relative_url }}" data-gallery data-caption="{{ include.event.name | escape }} · {{ include.event.date }}"><img src="{{ photo.path | relative_url }}" alt="{{ photo.alt | escape }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="lazy" decoding="async"></a>
+  {% endfor %}
+</div>
