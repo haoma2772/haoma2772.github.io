@@ -1,130 +1,34 @@
 ---
-# layout: archive # too wide
 title: "Sports"
 permalink: /sports/
 author_profile: true
 ---
 
-
-# Sports
-
 ## Running
-
 
 ### 青岛海上半程马拉松
 
-<div style="display: flex; justify-content: center; gap: 20px; align-items: center; text-align: center;">
-    <div>
-        <img style="
-            border-radius: 0.3125em;
-            box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.08);
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin-bottom: 10px;
-        " src="../_sports/running/2023_haima1.jpg" alt="Photo 1">
-    </div>
-    <div>
-        <img style="
-            border-radius: 0.3125em;
-            box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.08);
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin-bottom: 10px;
-        " src="../_sports/running/2023_haima2.jpg" alt="Photo 2">
-    </div>
-    <div>
-        <img style="
-            border-radius: 0.3125em;
-            box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.08);
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin-bottom: 10px;
-        " src="../_sports/running/2023_haima3.jpg" alt="Photo 3">
-    </div>
+<div class="sports-gallery">
+  <a href="{{ '/_sports/running/2023_haima1.jpg' | relative_url }}"><img src="{{ '/_sports/running/2023_haima1.jpg' | relative_url }}" alt="青岛海上半程马拉松照片 1" loading="lazy" decoding="async"></a>
+  <a href="{{ '/_sports/running/2023_haima2.jpg' | relative_url }}"><img src="{{ '/_sports/running/2023_haima2.jpg' | relative_url }}" alt="青岛海上半程马拉松照片 2" loading="lazy" decoding="async"></a>
+  <a href="{{ '/_sports/running/2023_haima3.jpg' | relative_url }}"><img src="{{ '/_sports/running/2023_haima3.jpg' | relative_url }}" alt="青岛海上半程马拉松照片 3" loading="lazy" decoding="async"></a>
 </div>
-
-<div style="text-align: center;">
-    2023.10.15
-
+<p class="sports-date"><time datetime="2023-10-15">2023.10.15</time></p>
 
 ### 即墨半程马拉松
 
-<div style="display: flex; justify-content: center; gap: 20px; align-items: center; text-align: center;">
-    <div>
-        <img style="
-            border-radius: 0.3125em;
-            box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.08);
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin-bottom: 10px;
-        " src="../_sports/running/2023_jimo1.jpg" alt="Photo 1">
-    </div>
-    <div>
-        <img style="
-            border-radius: 0.3125em;
-            box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.08);
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin-bottom: 10px;
-        " src="../_sports/running/2023_jimo2.jpg" alt="Photo 2">
-    </div>
-    <div>
-        <img style="
-            border-radius: 0.3125em;
-            box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.08);
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin-bottom: 10px;
-        " src="../_sports/running/2023_jimo3.jpg" alt="Photo 3">
-    </div>
+<div class="sports-gallery">
+  <a href="{{ '/_sports/running/2023_jimo1.jpg' | relative_url }}"><img src="{{ '/_sports/running/2023_jimo1.jpg' | relative_url }}" alt="即墨半程马拉松照片 1" loading="lazy" decoding="async"></a>
+  <a href="{{ '/_sports/running/2023_jimo2.jpg' | relative_url }}"><img src="{{ '/_sports/running/2023_jimo2.jpg' | relative_url }}" alt="即墨半程马拉松照片 2" loading="lazy" decoding="async"></a>
+  <a href="{{ '/_sports/running/2023_jimo3.jpg' | relative_url }}"><img src="{{ '/_sports/running/2023_jimo3.jpg' | relative_url }}" alt="即墨半程马拉松照片 3" loading="lazy" decoding="async"></a>
 </div>
-
-<div style="text-align: center;">
-    2023.05.14
-</div>
+<p class="sports-date"><time datetime="2023-05-14">2023.05.14</time></p>
 
 ### 青岛马拉松
 
-<div style="display: flex; justify-content: center; gap: 20px; align-items: center; text-align: center;">
-    <div>
-        <img style="
-            border-radius: 0.3125em;
-            box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.08);
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin-bottom: 10px;
-        " src="../_sports/running/2023_qingma1.jpg" alt="Photo 1">
-    </div>
-    <div>
-        <img style="
-            border-radius: 0.3125em;
-            box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.08);
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin-bottom: 10px;
-        " src="../_sports/running/2023_qingma2.jpg" alt="Photo 2">
-    </div>
-    <div>
-        <img style="
-            border-radius: 0.3125em;
-            box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.08);
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin-bottom: 10px;
-        " src="../_sports/running/2023_qingma3.jpg" alt="Photo 3">
-    </div>
+<div class="sports-gallery">
+  <a href="{{ '/_sports/running/2023_qingma1.jpg' | relative_url }}"><img src="{{ '/_sports/running/2023_qingma1.jpg' | relative_url }}" alt="青岛马拉松照片 1" loading="lazy" decoding="async"></a>
+  <a href="{{ '/_sports/running/2023_qingma2.jpg' | relative_url }}"><img src="{{ '/_sports/running/2023_qingma2.jpg' | relative_url }}" alt="青岛马拉松照片 2" loading="lazy" decoding="async"></a>
+  <a href="{{ '/_sports/running/2023_qingma3.jpg' | relative_url }}"><img src="{{ '/_sports/running/2023_qingma3.jpg' | relative_url }}" alt="青岛马拉松照片 3" loading="lazy" decoding="async"></a>
 </div>
-
-<div style="text-align: center;">
-    2023.04.21
-</div>
-
+<p class="sports-date"><time datetime="2023-04-21">2023.04.21</time></p>

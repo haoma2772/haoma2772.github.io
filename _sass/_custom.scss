@@ -1,0 +1,87 @@
+/* Small refinements that retain the AcademicPages typography and palette. */
+.page__title {
+  line-height: 1.25;
+  margin-bottom: 0.75em;
+}
+
+.page__content {
+  overflow-wrap: break-word;
+
+  h2 {
+    margin-top: 1.75em;
+    scroll-margin-top: 4.5rem;
+  }
+
+  li + li {
+    margin-top: 0.75em;
+  }
+}
+
+a {
+  text-underline-offset: 0.15em;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid $link-color-hover;
+  outline-offset: 3px;
+}
+
+.greedy-nav a[aria-current="page"] {
+  color: $dark-gray;
+  text-decoration: underline;
+  text-underline-offset: 0.35em;
+}
+
+.cv-preview {
+  display: block;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.sports-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  align-items: start;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: $border-radius;
+    box-shadow: 0 2px 8px rgba(#000, 0.1);
+  }
+}
+
+.sports-date {
+  margin-top: 0.75em;
+  color: $dark-gray;
+  font-size: 0.85em;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .sports-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .greedy-nav .hidden-links a,
+  .author__urls a {
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

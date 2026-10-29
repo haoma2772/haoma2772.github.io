@@ -1,4 +1,39 @@
 
+# Hao Ma's homepage
+
+Personal academic website: [haoma2772.github.io](https://haoma2772.github.io/).
+
+The site uses Jekyll and AcademicPages. Keep the existing theme when making visual refinements.
+
+## Content locations
+
+| Content | File |
+| --- | --- |
+| English homepage | `_pages/about.md` |
+| Chinese homepage | `_pages/chinese.md` |
+| Shared publication list | `_includes/publication-list.md` |
+| CV and running photos | `_pages/cv.md`, `_pages/sports.md` |
+| Profile and site metadata | `_config.yml` |
+| Navigation | `_data/navigation.yml` |
+| Small style adjustments | `_sass/_custom.scss` |
+
+## Local preview
+
+With Ruby, Bundler, and Node.js installed (Windows users can use Ubuntu in WSL):
+
+```sh
+bundle install
+bundle exec jekyll serve --host 127.0.0.1
+```
+
+Open `http://127.0.0.1:4000`. Changes to `_config.yml` require restarting the server.
+
+If JavaScript source files change, run `npm install` and `npm run build:js` to update the committed `assets/js/main.min.js` bundle. Generated pages, dependencies, and local caches are ignored by Git.
+
+## Theme credits
+
+The original AcademicPages documentation follows. The theme's MIT license is retained in `LICENSE`.
+
 # Academic Pages
 
 ![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)

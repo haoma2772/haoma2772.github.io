@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Hao Ma (马豪)"
 title_separator          : "-"
 name                     : &name "Hao Ma"
-description              : &description "personal description"
+description              : &description "Hao Ma, Ph.D. student at Hong Kong Baptist University. Research in trustworthy large language models, social computing, and robust federated learning."
 url                      : https://haoma2772.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "haoma2772/haoma2772.github.io"
@@ -25,7 +25,7 @@ author:
   name             : "Hao Ma"
   pronouns         : # example: "she/her"  
   bio              : "To be like grass, staying humble is best."
-  location         : "Shandong University, Qingdao, China"
+  location         : "Hong Kong"
   employer         : 
   uri              : # URL
   email            : "haoma@mail.sdu.edu.cn" 
@@ -146,6 +146,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - _sports
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -280,7 +281,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Hong_Kong
 
 
 # Plugins

@@ -50,6 +50,7 @@ $(document).ready(function(){
       Stickyfill.stop();
       $(".author__urls").hide();
     }
+    $(".author__urls-wrapper button").attr("aria-expanded", String(show)).removeClass("open");
   };
 
   stickySideBar();
@@ -60,8 +61,31 @@ $(document).ready(function(){
 
   // Follow menu drop down
   $(".author__urls-wrapper button").on("click", function() {
-    $(".author__urls").fadeToggle("fast", function() {});
-    $(".author__urls-wrapper button").toggleClass("open");
+    var button = $(this);
+    var opening = !$(".author__urls").is(":visible");
+    $(".author__urls").stop(true, true).toggle(opening);
+    button.toggleClass("open", opening).attr("aria-expanded", String(opening));
+  });
+
+  var closeAuthorLinks = function() {
+    var button = $(".author__urls-wrapper button");
+    if (button.is(":visible")) {
+      $(".author__urls").hide();
+      button.removeClass("open").attr("aria-expanded", "false");
+    }
+  };
+
+  $(".author__urls-wrapper").on("keydown", function(event) {
+    if (event.key === "Escape") {
+      closeAuthorLinks();
+      $(".author__urls-wrapper button:visible").trigger("focus");
+    }
+  });
+
+  $(document).on("click", function(event) {
+    if (!$(event.target).closest(".author__urls-wrapper").length) {
+      closeAuthorLinks();
+    }
   });
 
   // init smooth scroll, this needs to be slightly more than then fixed masthead height

@@ -1,14 +1,12 @@
 ---
-layout: archive
-title: ""
+layout: single
+title: "CV"
 permalink: /cv/
 author_profile: true
 ---
 
-My CV is also available to download [here](../files/HaoMa_CV.pdf){:target="_blank"}.
+[Download my CV (PDF)]({{ '/files/HaoMa_CV.pdf' | relative_url }}).
 
-<object data="../files/HaoMa_CV.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="../files/HaoMa_CV.pdf">
-        <p>This browser does not support PDFs. Please <a href="../files/HaoMa_CV.pdf">download the PDF</a> to view.</p>
-    </embed>
-</object>
+<a class="cv-preview" href="{{ '/files/HaoMa_CV.pdf' | relative_url }}" aria-label="Open the full CV as a PDF">
+  <img src="{{ '/images/HaoMa_CV_preview.jpg' | relative_url }}" alt="Preview of the first page of Hao Ma's CV. Open the PDF to read the full document." width="1132" height="1600" decoding="async">
+</a>
