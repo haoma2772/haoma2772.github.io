@@ -1,33 +1,34 @@
-- title: "General Backdoor-Resilient Federated Learning via Multi-Armed Bandit-based Knowledge Distillation"
-  authors: "Senmao Qi, <strong>Hao Ma</strong>, Yifei Zou, Peng Li, Hanlin Gu, Zhenzhen Xie, Lixin Fan, Xiuzhen Cheng, Dongxiao Yu"
-  venue: "IEEE Transactions on Information Forensics and Security"
-  label: "TIFS"
-  year: 2025
-  rank: "CCF A"
-- title: "Fed-NAD: Backdoor Resilient Federated Learning via Neural Attention Distillation"
-  authors: "<strong>Hao Ma</strong>, Senmao Qi, Jiayue Yao, Yuan Yuan, Yifei Zou, Dongxiao Yu"
-  venue: "IEEE International Conference on Intelligent Data and Security"
-  label: "IDS"
+- title: General Backdoor-Resilient Federated Learning via Multi-Armed Bandit-Based Knowledge Distillation
+  authors: Senmao Qi, <strong>Hao Ma</strong>, Yifei Zou, Peng Li, Hanlin Gu, Zhenzhen Xie, Lixin Fan, Xiuzhen Cheng, Dongxiao Yu
+  venue: IEEE Transactions on Information Forensics and Security
+  label: TIFS
+  year: 2026
+  rank: CCF A
+  url: https://doi.org/10.1109/TIFS.2025.3630065
+- title: 'Fed-NAD: Backdoor Resilient Federated Learning via Neural Attention Distillation'
+  authors: <strong>Hao Ma</strong>, Senmao Qi, Jiayue Yao, Yuan Yuan, Yifei Zou, Dongxiao Yu
+  venue: IEEE International Conference on Intelligent Data and Security
+  label: IDS
   year: 2024
-  pdf: "/files/Fed-NAD_Backdoor_Resilient_Federated_Learning_via_Neural_Attention_Distillation.pdf"
-- title: "Fragment-sharing is enough to backdoor a giant model in federated learning"
-  authors: "Senmao Qi, <strong>Hao Ma</strong>, Yifei Zou, Dongxiao Yu, Peng Li, Xiuzhen Cheng"
-  venue: "Big Data Mining and Analytics"
-  label: "BDMA"
+  url: https://doi.org/10.1109/IDS62739.2024.00009
+- title: Backdoor Attack to Giant Model in Fragment-Sharing Federated Learning
+  authors: Senmao Qi, <strong>Hao Ma</strong>, Yifei Zou, Yuan Yuan, Zhenzhen Xie, Peng Li, Xiuzhen Cheng
+  venue: Big Data Mining and Analytics
+  label: BDMA
   year: 2024
-  rank: "JCR Q1"
-  pdf: "/files/Backdoor_Attack_to_Giant_Model_in_Fragment-Sharing.pdf"
-- title: "Fed-MS: Fault Tolerant Federated Edge Learning with Multiple Byzantine Servers"
-  authors: "Senmao Qi, <strong>Hao Ma</strong>, Yifei Zou, Yuan Yuan, Peng Li, Dongxiao Yu"
-  venue: "IEEE International Conference on Distributed Computing Systems"
-  label: "ICDCS"
+  rank: JCR Q1
+  url: https://doi.org/10.26599/BDMA.2024.9020035
+- title: 'Fed-MS: Fault Tolerant Federated Edge Learning with Multiple Byzantine Servers'
+  authors: Senmao Qi, <strong>Hao Ma</strong>, Yifei Zou, Yuan Yuan, Peng Li, Dongxiao Yu
+  venue: IEEE International Conference on Distributed Computing Systems
+  label: ICDCS
   year: 2024
-  rank: "CCF B"
-  pdf: "/files/Fed-MS_Fault_Tolerant_Federated_Edge_Learning_with_Multiple_Byzantine_Servers.pdf"
-- title: "BR-FEEL: A Backdoor Resilient Approach for Federated Edge Learning with Fragment-Sharing"
-  authors: "Senmao Qi, <strong>Hao Ma</strong>, Yifei Zou, Yuan Yuan, Peng Li, Dongxiao Yu"
-  venue: "Journal of Systems Architecture"
-  label: "JSA"
+  rank: CCF B
+  url: https://doi.org/10.1109/ICDCS60910.2024.00095
+- title: 'BR-FEEL: A Backdoor Resilient Approach for Federated Edge Learning with Fragment-Sharing'
+  authors: Senmao Qi, <strong>Hao Ma</strong>, Yifei Zou, Yuan Yuan, Peng Li, Dongxiao Yu
+  venue: Journal of Systems Architecture
+  label: JSA
   year: 2024
-  rank: "CCF B"
-  pdf: "/files/BR-FEEL_A_backdoor_resilient_approach_for_federated_edge_learning_with_fragment-sharing.pdf"
+  rank: CCF B
+  url: https://doi.org/10.1016/j.sysarc.2024.103258

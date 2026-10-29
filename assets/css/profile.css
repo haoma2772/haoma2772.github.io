@@ -69,20 +69,20 @@ h3{font-size:16px;line-height:1.5;font-weight:600;letter-spacing:-.015em}
 .section-heading .eyebrow{margin-bottom:7px}
 .section-note{padding-bottom:3px;color:var(--muted);font-size:11px;white-space:nowrap}
 .publication-list{list-style:none;margin:0;padding:0}
-.publication{display:grid;grid-template-columns:67px minmax(0,1fr);gap:22px;padding:23px 0;border-top:1px solid var(--line)}
+.publication{display:block;padding:21px 0;border-top:1px solid var(--line)}
 .publication:first-child{padding-top:0;border-top:0}
 .publication:last-child{padding-bottom:0}
-.publication-label{padding-top:3px;display:flex;align-items:start;flex-direction:column;gap:4px}
-.publication-label span{display:inline-block;border-radius:3px;padding:2px 7px;background:var(--accent-soft);font-size:10px;font-weight:650;letter-spacing:.035em;line-height:1.8;color:var(--accent)}
-.publication-label time{padding-left:6px;color:var(--muted);font-size:11px;font-variant-numeric:tabular-nums}
-.publication h3{font-size:17px;line-height:1.55;font-weight:600}
-.publication h3 a{color:var(--ink)}
-.publication h3 a:hover{color:var(--accent);text-decoration:none}
-.publication-authors{margin-top:8px;color:var(--muted);font-size:13px;line-height:1.75}
-.publication-authors strong{color:var(--ink);font-weight:600}
-.publication-venue{margin-top:5px;color:var(--body);font-size:13px;font-style:italic;line-height:1.75}
-.rank-tag{display:inline-block;margin-left:9px;padding:0 5px;border:1px solid var(--line);border-radius:3px;font-size:9px;line-height:1.7;font-style:normal;white-space:nowrap;color:var(--muted)}
-.paper-link{display:inline-flex;align-items:center;gap:8px;margin-top:9px;font-size:10px;font-weight:650;letter-spacing:.035em}
+.publication-citation{font-size:15px;line-height:1.95;overflow-wrap:break-word}
+.publication-label{display:inline;white-space:nowrap;margin-right:9px}
+.publication-label>span{display:inline-block;padding:1px 6px;border-radius:3px;background:var(--accent-soft);color:var(--accent);font-size:10px;font-weight:650;letter-spacing:.035em;vertical-align:1px}
+.publication-label time{margin-left:6px;color:var(--muted);font-size:11px}
+.publication-title{color:var(--ink);font-weight:600;font-size:16px;line-height:inherit}
+.publication-title:hover{color:var(--accent);text-decoration:underline}
+.citation-arrow{font-size:11px;margin-left:5px;color:var(--accent)}
+.publication-authors{display:inline;margin:0;font-size:14px;line-height:inherit;color:var(--body)}
+.publication-authors strong{color:var(--ink);font-weight:650}
+.publication-venue{display:inline;margin:0;font-size:14px;line-height:inherit;color:var(--muted)}
+.rank-tag{display:inline-block;margin-left:5px;padding:0 5px;border:1px solid var(--line);border-radius:3px;color:var(--muted);font-size:9px;font-style:normal;line-height:1.7;white-space:nowrap}
 .timeline-item{display:grid;grid-template-columns:124px minmax(0,1fr);gap:20px;position:relative;margin-left:5px;padding:0 0 29px 23px;border-left:1px solid var(--line)}
 .timeline-item:last-child{padding-bottom:0;border-left-color:transparent}
 .timeline-item:before{position:absolute;content:"";left:-4px;top:8px;height:7px;width:7px;border:1px solid var(--accent);background:var(--paper);border-radius:50%}
@@ -174,3 +174,17 @@ h3{font-size:16px;line-height:1.5;font-weight:600;letter-spacing:-.015em}
 @media(max-width:800px){.site-shell,.header-inner{width:calc(100% - 40px)}.header-inner{min-height:66px}.wordmark{font-size:20px}.wordmark span{font-size:13px}.js .menu-toggle{display:flex}.js .nav-links{display:none;position:absolute;left:20px;right:20px;top:65px;padding:10px 16px;background:var(--paper);border:1px solid var(--line);border-radius:0 0 8px 8px;box-shadow:0 16px 24px rgba(25,40,30,.05)}.js .nav-links.is-open{display:grid;grid-template-columns:1fr 1fr;gap:0 20px}.nav-links a{padding:11px 5px}.nav-links a.is-active:after{bottom:7px;left:5px}.no-js .header-inner{flex-wrap:wrap;gap:0}.no-js .nav-links{flex-wrap:wrap;gap:0 18px}.home-layout{display:block;padding-top:30px}.profile-sidebar{position:static;display:grid;grid-template-columns:116px minmax(0,1fr);column-gap:23px;align-items:center;padding-bottom:30px;margin-bottom:32px;border-bottom:1px solid var(--line)}.profile-photo-frame{height:140px;aspect-ratio:auto;border-radius:8px}.profile-photo{object-position:50% 58%}.profile-name{font-size:27px;margin:0 0 8px}.profile-name span{font-size:17px}.profile-university{max-width:none;margin-top:7px}.profile-links{grid-column:1/-1;display:flex;flex-direction:row;gap:25px;margin-top:19px;padding-top:0;border-top:0}.profile-links a{gap:7px;font-size:12px;min-height:28px}.profile-links a>span:last-child{display:none}.profile-links a>.orcid-icon{display:inline-block}.profile-motto{display:none}h1{font-size:43px}.intro-lead{font-size:18px}.intro{padding-top:0;padding-bottom:36px}.section{padding-top:34px;padding-bottom:34px}.section-heading{margin-bottom:25px}h2{font-size:29px}.publication h3{font-size:15px}.publication{grid-template-columns:55px minmax(0,1fr);gap:15px}.timeline-item{grid-template-columns:110px minmax(0,1fr);gap:12px}.cv-callout{align-items:start}.sports-content{padding-top:35px}.sports-intro{margin-bottom:32px}.sports-intro h1{font-size:49px}.sports-section{padding:32px 0}.sports-section .section-heading{display:block}.sports-description{margin-top:15px;max-width:100%}.badminton-grid{gap:16px;grid-template-columns:1.6fr 1fr}.badminton-grid .gallery-photo{height:280px}.race-grid{gap:16px;grid-template-columns:1.4fr 1fr}.race-grid .gallery-photo{height:285px}.photo-viewer{padding:50px 35px}.photo-viewer button{font-size:20px;padding:10px}.viewer-prev{left:0}.viewer-next{right:0}}
 @media(max-width:480px){.intro h1{font-size:40px;margin-bottom:20px}.intro p:not(.eyebrow){font-size:15px;line-height:1.85}.intro p.intro-lead{font-size:17px;line-height:1.8}.research-focus{gap:6px;margin-top:20px}.research-focus span{font-size:10px;padding:3px 7px}.intro-actions{gap:20px}.section-heading h2{font-size:28px}.section-note{font-size:10px}.publication{display:block;padding:22px 0}.publication-label{flex-direction:row;align-items:center;gap:7px;padding-top:0;margin-bottom:10px}.publication-label time{padding-left:0}.publication h3{font-size:17px;line-height:1.6}.publication-authors,.publication-venue{font-size:12px}.timeline-item{display:block;padding-left:20px;padding-bottom:25px}.timeline-period{margin-bottom:6px}.timeline-period span{display:inline;margin-left:8px}.timeline-item h3{font-size:15px}.awards-list li{grid-template-columns:69px minmax(0,1fr);gap:12px}.awards-list p{font-size:12px}.awards-list li>span{font-size:9px}.experience-item{display:block}.experience-item>span{display:block;margin-top:7px}.skills-list{display:block}.skills-list>div+div{margin-top:17px}.cv-callout{display:block}.cv-callout>.button{margin-top:20px}.chinese-section h2{font-size:24px}.chinese-section .section-heading{gap:8px}.chinese-section .text-link{font-size:10px;white-space:nowrap}.chinese-section p:not(.eyebrow){font-size:13px}.site-footer{margin-top:20px;font-size:9px;gap:12px}.footer-dot{margin:0 5px}.sports-intro h1{font-size:43px}.sports-intro .sports-lead{font-size:14px}.badminton-grid{grid-template-columns:1fr}.badminton-grid .gallery-photo{height:auto}.badminton-grid .gallery-photo img{height:auto}.badminton-grid .trophy-photo{height:290px}.badminton-grid .trophy-photo img{height:100%;object-fit:contain}.race-grid{grid-template-columns:1fr}.race-grid .gallery-photo{height:auto}.race-grid .gallery-photo img{height:auto}.race-grid .result-photo{height:330px}.race-grid .result-photo img{height:100%;object-fit:contain}.album-heading h3{font-size:16px}.photo-caption{font-size:10px}.archive-gallery{gap:9px}.archive-gallery img{aspect-ratio:3/4}.sports-outro{font-size:18px}.sports-outro a{display:block;margin:12px 0 0}.photo-viewer{padding:55px 28px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+
+/* Wider academic content, with continuous title-and-author citations. */
+.profile-english-name{margin:0 0 10px;color:var(--muted);font-family:var(--serif);font-size:17px;line-height:1.5}
+.section.education-section{padding-top:0;border-top:0}
+.education-section h1{font-size:40px}
+.section.about-section{padding-top:38px;border-top:1px solid var(--line)}
+.about-section .intro-lead{font-size:17px;line-height:1.8}
+.supervisor-line{margin-top:8px}
+.fellow-label{font-size:12px;color:var(--muted);white-space:nowrap}
+.merged-race-gallery{margin-top:22px}
+@media(min-width:801px){.home-page .site-shell,.home-page .header-inner{width:calc(100% - 64px);max-width:1480px}.home-layout{grid-template-columns:216px minmax(0,1fr);gap:56px}.home-page .site-footer{max-width:1480px}.home-page .publication{display:block}.home-page .publication-label{display:inline;padding:0}}
+@media(min-width:801px) and (max-width:1050px){.home-layout{grid-template-columns:196px minmax(0,1fr);gap:36px}}
+@media(min-width:801px) and (max-height:850px){.profile-sidebar{position:static}}
+@media(max-width:800px){.profile-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:22px;row-gap:5px}.profile-english-name{font-size:15px;margin:0 0 6px}.profile-name{margin-bottom:0}.education-section h1{font-size:34px}.home-page .publication{display:block}.home-page .publication-label{display:inline;margin:0 8px 0 0;padding:0}.home-page .publication-label time{padding:0}.publication-citation{font-size:14px;line-height:1.95}.publication-authors,.publication-venue{font-size:13px}.publication-title{font-size:15px}.experience-item{align-items:start}.experience-item>span{font-size:11px}}

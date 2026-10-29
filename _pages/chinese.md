@@ -2,5 +2,5 @@
 layout: null
 permalink: /chinese/
 sitemap: false
-redirect_to: /#chinese
+redirect_to: /#education
 ---

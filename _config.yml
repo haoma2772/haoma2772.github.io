@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Hao Ma (马豪)"
+title                    : "Hao Ma"
 title_separator          : "-"
 name                     : &name "Hao Ma"
 description              : &description "Hao Ma, Ph.D. student at Hong Kong Baptist University. Research in trustworthy large language models, social computing, and robust federated learning."
@@ -32,7 +32,7 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=a-T6Vy4AAAAJ&hl=zh-CN"
   impactstory      : # URL
   orcid            : "https://orcid.org/0009-0009-8269-1733"
   pubmed           : 
@@ -197,6 +197,8 @@ exclude:
   - files/paper1.pdf
   - files/paper2.pdf
   - files/paper3.pdf
+  - files/HaoMa_CV.pdf
+  - images/HaoMa_CV_preview.jpg
 keep_files:
   - .git
   - .svn

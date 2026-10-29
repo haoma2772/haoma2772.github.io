@@ -2,5 +2,5 @@
 layout: null
 permalink: /cv/
 sitemap: false
-redirect_to: /#cv
+redirect_to: /#education
 ---

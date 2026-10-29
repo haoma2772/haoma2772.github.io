@@ -1,15 +1,13 @@
 main:
+  - title: "Education"
+    url: /#education
   - title: "About"
     url: /#about
   - title: "Publications"
     url: /#publications
-  - title: "Education"
-    url: /#education
   - title: "Awards"
     url: /#honors
-  - title: "CV"
-    url: /#cv
-  - title: "中文"
-    url: /#chinese
+  - title: "Experience"
+    url: /#experience
   - title: "Sports"
     url: /sports/

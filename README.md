@@ -3,16 +3,14 @@
 
 Personal academic website: [haoma2772.github.io](https://haoma2772.github.io/).
 
-The site uses Jekyll with a custom academic profile layout, adapted from AcademicPages. The homepage is a single page with anchored sections; Sports is a separate photo page. Legacy page URLs redirect to their matching homepage sections.
+The site uses Jekyll with a custom academic profile layout, adapted from AcademicPages. The English homepage starts with Education and uses anchored sections; Sports combines all previous and new photos under Badminton and Running. Legacy page URLs redirect to their matching homepage sections.
 
 ## Content locations
 
 | Content | File |
 | --- | --- |
 | English homepage | `_pages/about.md` |
-| Chinese introduction | `#chinese` in `_pages/about.md` |
 | Publications | `_data/papers.yml`, `_includes/profile-publications.html` |
-| CV | `#cv` in `_pages/about.md`, `files/HaoMa_CV.pdf` |
 | Sports and photo albums | `_pages/sports.md`, `images/sports/` |
 | Profile and site metadata | `_config.yml` |
 | Navigation | `_data/navigation.yml` |
@@ -30,7 +28,7 @@ bundle exec jekyll serve --host 127.0.0.1
 
 Open `http://127.0.0.1:4000`. Changes to `_config.yml` require restarting the server.
 
-The custom homepage and Sports page use buildless CSS and JavaScript. The original theme bundle remains available for legacy template development (`npm install` and `npm run build:js`). Generated pages, dependencies, and local caches are ignored by Git. When replacing the CV PDF, also refresh its preview image in `images/HaoMa_CV_preview.jpg`.
+The custom homepage and Sports page use buildless CSS and JavaScript. The original theme bundle remains available for legacy template development (`npm install` and `npm run build:js`). Generated pages, dependencies, and local caches are ignored by Git.
 
 ## Theme credits
 

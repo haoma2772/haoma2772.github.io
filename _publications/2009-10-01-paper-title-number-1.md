@@ -9,4 +9,4 @@ paperurl: 'https://ieeexplore.ieee.org/document/10590622'
 citation: 'H. Ma, S. Qi, J. Yao, Y. Yuan, Y. Zou and D. Yu, "Fed-NAD: Backdoor Resilient Federated Learning via Neural Attention Distillation," 2024 10th IEEE International Conference on Intelligent Data and Security (IDS), NYC, NY, USA, 2024, pp. 7-13, doi: 10.1109/IDS62739.2024.00009. keywords: {Training;Data privacy;Toxicology;Federated learning;Distributed databases;Distance measurement;Data models;Federated Learning;Backdoor Attack;Neural Attention Distillation},'
 ---
 
-[Read the paper (PDF)]({{ '/files/Fed-NAD_Backdoor_Resilient_Federated_Learning_via_Neural_Attention_Distillation.pdf' | relative_url }}).
+[Read the paper online](https://doi.org/10.1109/IDS62739.2024.00009).
